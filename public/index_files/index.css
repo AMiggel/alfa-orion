@@ -472,7 +472,6 @@
 .u-section-7 .u-image-1 {
   height: 400px;
   width: 325px;
-  margin: 276px auto 0;
 }
 
 .u-section-7 .u-text-2 {
@@ -562,8 +561,8 @@
   }
 
   .u-section-7 .u-image-1 {
-    height: 361px;
-    width: 293px;
+    height: 276px;
+    width: 203px;
   }
 
   .u-section-7 .u-layout-cell-2 {
@@ -723,6 +722,19 @@
   }
 }
 
+.u-layout-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+@media (min-width: 1200px) {
+  .u-layout-grid {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+
 @media (max-width: 575px) {
   .u-section-8 .u-sheet-1 {
     min-height: 690px;
@@ -734,5 +746,41 @@
 
   .u-section-8 .u-text-1 {
     font-size: 1.875rem;
+  }
+}
+
+.fila-contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.item {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+
+.item img {
+  width: 100%;
+  display: block;
+  filter: brightness(60%);
+  transition: 0.7s ease;
+
+}
+
+
+.item:hover img {
+  filter: brightness(100%);
+}
+
+.item:hover::before {
+  background: rgba(0, 0, 0, 0);
+}
+
+@media (max-width: 600px) {
+  .item {
+    flex: 1 1 100%;
   }
 }
