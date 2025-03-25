@@ -13,6 +13,7 @@ fetch('miembros.json')
           data-animation-name="flipIn" data-animation-duration="3000" data-animation-delay="0"
           data-animation-direction="X" style="will-change: transform; animation-duration: 500ms; height: 325px;
   width: 275px;">
+      <a onclick="mostrarPopup()">
         <h5>${miembro.nombreCompleto}</h5>
         <h6>${miembro.cargo}</h6>
       `;
