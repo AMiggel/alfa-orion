@@ -1,532 +1,449 @@
 {
   "miembros": [
-    {
-      "nombreCompleto": "Adrian Gomez Beltran",
-      "tipoDocumento": "CC",
-      "numeroDocumento": "71387923",
-      "numeroCelular": "3022183569",
-      "correoElectronico": "angel2015.03@gmail.com",
-      "direccion": "N/A",
-      "numeroEmergencia": "3183902993",
-      "cumple": "N/A",
-      "eps": "SURA",
-      "alergia": [
-        "NINGUNA"
-      ],
-      "tipoSangre": "B+",
-      "foto": "./default.jpg"
-    },
-    {
-      "nombreCompleto": "Adriana Acevedo",
-      "tipoDocumento": "CC",
-      "numeroDocumento": "1018421809",
-      "numeroCelular": "3134482949",
-      "correoElectronico": "zulellyace@hotmail.com",
-      "direccion": "N/A",
-      "numeroEmergencia": "3122785239",
-      "cumple": "N/A",
-      "eps": "Sura",
-      "alergia": [
-        "Ninguna"
-      ],
-      "tipoSangre": "O+",
-      "foto": "./default.jpg"
-    },
-    {
-      "nombreCompleto": "Adriana Rubio Rodríguez",
-      "tipoDocumento": "CC",
-      "numeroDocumento": "109225;22",
-      "numeroCelular": "3166255451",
-      "correoElectronico": "adriana.rubio@udea.edu.co",
-      "direccion": "N/A",
-      "numeroEmergencia": "3154421144",
-      "cumple": "N/A",
-      "eps": "Sanitas",
-      "alergia": [
-        "Ninguna"
-      ],
-      "tipoSangre": "A+",
-      "foto": "./default.jpg"
-    },
-    {
-      "nombreCompleto": "Angelica Yineth Guzman Sandoval",
-      "tipoDocumento": "CC",
-      "numeroDocumento": "1010091583",
-      "numeroCelular": "3228876868",
-      "correoElectronico": "Yineth245sguzman@gmail.com",
-      "direccion": "N/A",
-      "numeroEmergencia": "3142999304 - +57 311 6937366",
-      "cumple": "N/A",
-      "eps": "Salud total",
-      "alergia": [
-        "Ninguna"
-      ],
-      "tipoSangre": "O+",
-      "foto": "./default.jpg"
-    },
-    {
-      "nombreCompleto": "Antonio Marin Caro",
-      "tipoDocumento": "CC",
-      "numeroDocumento": "1042353312",
-      "numeroCelular": "3194564217",
-      "correoElectronico": "amiguelm10@gmail.com",
-      "direccion": "N/A",
-      "numeroEmergencia": "313 8525906",
-      "cumple": "N/A",
-      "eps": "Sura",
-      "alergia": [
-        "Ninguna"
-      ],
-      "tipoSangre": "A+",
-      "foto": "./default.jpg"
-    },
-    {
-      "nombreCompleto": "Billinwg Kay Paternina Caicedo",
-      "tipoDocumento": "CC",
-      "numeroDocumento": "1043960341",
-      "numeroCelular": "3007586698",
-      "correoElectronico": "billinwgkay@gmail.com",
-      "direccion": "N/A",
-      "numeroEmergencia": "3008088673",
-      "cumple": "N/A",
-      "eps": "Salud Total/Familiar Colombia",
-      "alergia": [
-        "No"
-      ],
-      "tipoSangre": "O+",
-      "foto": "./default.jpg"
-    },
-    {
-      "nombreCompleto": "Daniel Alberto Gonzalez Chavez",
-      "tipoDocumento": "CC",
-      "numeroDocumento": "1070588772",
-      "numeroCelular": "3054379444",
-      "correoElectronico": "danielalberto.g.ch15@gmail.com",
-      "direccion": "N/A",
-      "numeroEmergencia": "3133962588",
-      "cumple": "N/A",
-      "eps": "SURA",
-      "alergia": [
-        "No"
-      ],
-      "tipoSangre": "B+",
-      "foto": "./default.jpg"
-    },
-    {
-      "nombreCompleto": "Daniel Alfonso Sánchez Moreno",
-      "tipoDocumento": "CC",
-      "numeroDocumento": "1005220636",
-      "numeroCelular": "3173891538",
-      "correoElectronico": "daniel.al20135@gmail.com",
-      "direccion": "N/A",
-      "numeroEmergencia": "3212364246",
-      "cumple": "N/A",
-      "eps": "Sumimedical",
-      "alergia": [
-        "Pastilla dipirona"
-      ],
-      "tipoSangre": "O+",
-      "foto": "./default.jpg"
-    },
-    {
-      "nombreCompleto": "Emmanuel de Jesús Cabarcas de la Hoz",
-      "tipoDocumento": "CC",
-      "numeroDocumento": "1042850902",
-      "numeroCelular": "3025773947",
-      "correoElectronico": "emmanuel.cabarcas07@gmail.com",
-      "direccion": "N/A",
-      "numeroEmergencia": "3014807351 - 3013272248",
-      "cumple": "N/A",
-      "eps": "Sanitas",
-      "alergia": [
-        "polvo"
-      ],
-      "tipoSangre": "A+",
-      "foto": "./default.jpg"
-    },
-    {
-      "nombreCompleto": "Gerson Hernández Teherán",
-      "tipoDocumento": "CC",
-      "numeroDocumento": "1041257036",
-      "numeroCelular": "317 650 4671",
-      "correoElectronico": "Sttivenhernandez3@gmail.com",
-      "direccion": "N/A",
-      "numeroEmergencia": "3136521824",
-      "cumple": "N/A",
-      "eps": "Savia salud",
-      "alergia": [
-        "Ninguna"
-      ],
-      "tipoSangre": "A+",
-      "foto": "./default.jpg"
-    },
-    {
-      "nombreCompleto": "Heyleenwg kay Paternina Caicedo",
-      "tipoDocumento": "CC",
-      "numeroDocumento": "1010107491",
-      "numeroCelular": "3008809744",
-      "correoElectronico": "Heykaypaca@gmail.com",
-      "direccion": "N/A",
-      "numeroEmergencia": "N/A",
-      "cumple": "N/A",
-      "eps": "Epa familiar de Colombia",
-      "alergia": [
-        "Ninguna"
-      ],
-      "tipoSangre": "O+",
-      "foto": "./default.jpg"
-    },
-    {
-      "nombreCompleto": "Jesús David Moreno Madera",
-      "tipoDocumento": "CC",
-      "numeroDocumento": "1064606555",
-      "numeroCelular": "3042686278",
-      "correoElectronico": "9.2jesusmorenomadera@gmail.com",
-      "direccion": "N/A",
-      "numeroEmergencia": "3235244108",
-      "cumple": "N/A",
-      "eps": "Mutual ser",
-      "alergia": [
-        "Azitromicina"
-      ],
-      "tipoSangre": "A+",
-      "foto": "./default.jpg"
-    },
-    {
-      "nombreCompleto": "Jorge Ivan Tapia Macea",
-      "tipoDocumento": "CC",
-      "numeroDocumento": "1238338692",
-      "numeroCelular": "3206390152",
-      "correoElectronico": "jorgeivan282@gmail.com",
-      "direccion": "N/A",
-      "numeroEmergencia": "3002556643",
-      "cumple": "N/A",
-      "eps": "Nueva Eps",
-      "alergia": [
-        "Ninguna"
-      ],
-      "tipoSangre": "O-",
-      "foto": "./default.jpg"
-    },
-    {
-      "nombreCompleto": "Jose Luis Cerda Lora",
-      "tipoDocumento": "CC",
-      "numeroDocumento": "1081910267",
-      "numeroCelular": "3236476162",
-      "correoElectronico": "jcerdalora@gmail.com",
-      "direccion": "N/A",
-      "numeroEmergencia": "3135580433",
-      "cumple": "N/A",
-      "eps": "Mutual Ser",
-      "alergia": [
-        "Ninguna"
-      ],
-      "tipoSangre": "O+",
-      "foto": "./default.jpg"
-    },
-    {
-      "nombreCompleto": "Juan Daniel Díaz Andrade",
-      "tipoDocumento": "CC",
-      "numeroDocumento": "1027804091",
-      "numeroCelular": "3242914830",
-      "correoElectronico": "juansisdiaz@gmail.com",
-      "direccion": "N/A",
-      "numeroEmergencia": "3014971812",
-      "cumple": "N/A",
-      "eps": "Nueva EPS",
-      "alergia": [
-        "Ninguna"
-      ],
-      "tipoSangre": "O+",
-      "foto": "./default.jpg"
-    },
-    {
-      "nombreCompleto": "Julián Herney García Valdez",
-      "tipoDocumento": "CC",
-      "numeroDocumento": "1124849480",
-      "numeroCelular": "3161360543",
-      "correoElectronico": "juliangarciapersonal@gmail.com",
-      "direccion": "N/A",
-      "numeroEmergencia": "3143005162",
-      "cumple": "N/A",
-      "eps": "Emmsanar",
-      "alergia": [
-        "Cebolla ( humor )"
-      ],
-      "tipoSangre": "A-",
-      "foto": "./default.jpg"
-    },
-    {
-      "nombreCompleto": "Laura Cuevas",
-      "tipoDocumento": "CC",
-      "numeroDocumento": "1097094500",
-      "numeroCelular": "3124828954",
-      "correoElectronico": "valentina1805lv.2005@gmail.com",
-      "direccion": "N/A",
-      "numeroEmergencia": "3112329442",
-      "cumple": "N/A",
-      "eps": "Sanitas",
-      "alergia": [
-        "0"
-      ],
-      "tipoSangre": "O+",
-      "foto": "./default.jpg"
-    },
-    {
-      "nombreCompleto": "Leidy Natalia Atahualpa Echeverry",
-      "tipoDocumento": "CC",
-      "numeroDocumento": "1005717478",
-      "numeroCelular": "3015696870",
-      "correoElectronico": "Leidy.atahualpae@unac.edu.co",
-      "direccion": "N/A",
-      "numeroEmergencia": "3224809664",
-      "cumple": "N/A",
-      "eps": "Sura",
-      "alergia": [
-        "Ninguna"
-      ],
-      "tipoSangre": "A+",
-      "foto": "./default.jpg"
-    },
-    {
-      "nombreCompleto": "Loren Stephany Arias Suárez",
-      "tipoDocumento": "CC",
-      "numeroDocumento": "1006874247",
-      "numeroCelular": "3214350058",
-      "correoElectronico": "loren16arias@gmail.com",
-      "direccion": "N/A",
-      "numeroEmergencia": "3102135957",
-      "cumple": "N/A",
-      "eps": "Nueva EPS",
-      "alergia": [
-        "Ninguna"
-      ],
-      "tipoSangre": "O+",
-      "foto": "./default.jpg"
-    },
-    {
-      "nombreCompleto": "Madelyn Gelvez Maldonado",
-      "tipoDocumento": "CC",
-      "numeroDocumento": "1095797320",
-      "numeroCelular": "N/A",
-      "correoElectronico": "Madelyn2015.03@gmail.com",
-      "direccion": "N/A",
-      "numeroEmergencia": "N/A",
-      "cumple": "N/A",
-      "eps": "Sura",
-      "alergia": [
-        "Ninguna"
-      ],
-      "tipoSangre": "O+",
-      "foto": "./default.jpg"
-    },
-    {
-      "nombreCompleto": "Maria Antonia Machado Vaca",
-      "tipoDocumento": "TI",
-      "numeroDocumento": "1023632292",
-      "numeroCelular": "N/A",
-      "correoElectronico": "machadomariaantonia344@gmail.com",
-      "direccion": "N/A",
-      "numeroEmergencia": "3224767168 Solo WhatsApp",
-      "cumple": "N/A",
-      "eps": "Sabia salud",
-      "alergia": [
-        "Rinitis"
-      ],
-      "tipoSangre": "A+",
-      "foto": "./default.jpg"
-    },
-    {
-      "nombreCompleto": "Misael Sanjur",
-      "tipoDocumento": "CE",
-      "numeroDocumento": "8114595",
-      "numeroCelular": "+507 66330391",
-      "correoElectronico": "misaelsanjurr@gmail.com",
-      "direccion": "N/A",
-      "numeroEmergencia": "317 7002759 midiam Quintero",
-      "cumple": "N/A",
-      "eps": "ACE American Insurance Company",
-      "alergia": [
-        "No"
-      ],
-      "tipoSangre": "O+",
-      "foto": "./default.jpg"
-    },
-    {
-      "nombreCompleto": "Natalia Marcela Guzmán Macías",
-      "tipoDocumento": "CC",
-      "numeroDocumento": "1100012755",
-      "numeroCelular": "3214370395",
-      "correoElectronico": "natalia050307@gmail.com",
-      "direccion": "N/A",
-      "numeroEmergencia": "3218965774",
-      "cumple": "N/A",
-      "eps": "Nueva eps",
-      "alergia": [
-        "Rinitis"
-      ],
-      "tipoSangre": "O-",
-      "foto": "./default.jpg"
-    },
-    {
-      "nombreCompleto": "Paula Angelly Riovalle Bermúdez",
-      "tipoDocumento": "CC",
-      "numeroDocumento": "1007212798",
-      "numeroCelular": "3233378092",
-      "correoElectronico": "paulaa.bermudezv@unac.edu.co",
-      "direccion": "N/A",
-      "numeroEmergencia": "3217332461",
-      "cumple": "N/A",
-      "eps": "El fomag",
-      "alergia": [
-        "Ninguna"
-      ],
-      "tipoSangre": "O+",
-      "foto": "./default.jpg"
-    },
-    {
-      "nombreCompleto": "Río Fabrizio Díaz Bassa",
-      "tipoDocumento": "TI",
-      "numeroDocumento": "1073982753",
-      "numeroCelular": "3245278068",
-      "correoElectronico": "riofdiaz77@gmail.com",
-      "direccion": "N/A",
-      "numeroEmergencia": "3113065911",
-      "cumple": "N/A",
-      "eps": "Fiduprevisora",
-      "alergia": [
-        "No"
-      ],
-      "tipoSangre": "A+",
-      "foto": "./default.jpg"
-    },
-    {
-      "nombreCompleto": "Samuel Esteban victoria Riascos",
-      "tipoDocumento": "CC",
-      "numeroDocumento": "1111747593",
-      "numeroCelular": "3136522600",
-      "correoElectronico": "victoriasamuel263@gmail.com",
-      "direccion": "N/A",
-      "numeroEmergencia": "N/A",
-      "cumple": "N/A",
-      "eps": "SOS",
-      "alergia": [
-        "Ninguna"
-      ],
-      "tipoSangre": "A+",
-      "foto": "./default.jpg"
-    },
-    {
-      "nombreCompleto": "Sara Garzon",
-      "tipoDocumento": "CC",
-      "numeroDocumento": "1019151681",
-      "numeroCelular": "3107926060",
-      "correoElectronico": "sara.garzon99@gmail.com",
-      "direccion": "N/A",
-      "numeroEmergencia": "3203304730",
-      "cumple": "N/A",
-      "eps": "Sura",
-      "alergia": [
-        "Ninguna"
-      ],
-      "tipoSangre": "o+",
-      "foto": "./default.jpg"
-    },
-    {
-      "nombreCompleto": "Sebastián Rincón Sanmiguel",
-      "tipoDocumento": "TI",
-      "numeroDocumento": "1027661544",
-      "numeroCelular": "3053389036",
-      "correoElectronico": "hhnnlelo@gmail.com",
-      "direccion": "N/A",
-      "numeroEmergencia": "3176442603",
-      "cumple": "N/A",
-      "eps": "Sura",
-      "alergia": [
-        "Al cerdo"
-      ],
-      "tipoSangre": "B+",
-      "foto": "./default.jpg"
-    },
-    {
-      "nombreCompleto": "Wendy Brigith Aviles Garzón",
-      "tipoDocumento": "CC",
-      "numeroDocumento": "1024549267",
-      "numeroCelular": "3206742669",
-      "correoElectronico": "wanda.15.wa@gmail.com",
-      "direccion": "N/A",
-      "numeroEmergencia": "Nanci Garzón 3144172965",
-      "cumple": "N/A",
-      "eps": "Savia salud",
-      "alergia": [
-        "Ninguna"
-      ],
-      "tipoSangre": "0+",
-      "foto": "./default.jpg"
-    },
-    {
-      "nombreCompleto": "William Florez Lopez",
-      "tipoDocumento": "CC",
-      "numeroDocumento": "1099543732",
-      "numeroCelular": "3122785239",
-      "correoElectronico": "wflcontabler@gmail.com",
-      "direccion": "N/A",
-      "numeroEmergencia": "3134482949",
-      "cumple": "N/A",
-      "eps": "Sura",
-      "alergia": [
-        "Ninguna"
-      ],
-      "tipoSangre": "O+",
-      "foto": "./default.jpg"
-    },
-    {
-      "nombreCompleto": "Yenilin Mileth Pineda Buzón",
-      "tipoDocumento": "CC",
-      "numeroDocumento": "1062955947",
-      "numeroCelular": "3167767549",
-      "correoElectronico": "yenilin864@gmail.com",
-      "direccion": "N/A",
-      "numeroEmergencia": "3137695164",
-      "cumple": "N/A",
-      "eps": "Salud total",
-      "alergia": [
-        "No"
-      ],
-      "tipoSangre": "B+",
-      "foto": "./default.jpg"
-    },
-    {
-      "nombreCompleto": "Yurany Marcela Cala Diaz",
-      "tipoDocumento": "CC",
-      "numeroDocumento": "1005484573",
-      "numeroCelular": "3208355520",
-      "correoElectronico": "yuranym.calad@unac.edu.co",
-      "direccion": "N/A",
-      "numeroEmergencia": "3157528510",
-      "cumple": "N/A",
-      "eps": "Medimás",
-      "alergia": [
-        "Ninguna"
-      ],
-      "tipoSangre": "B+",
-      "foto": "./default.jpg"
-    },
-    {
-      "nombreCompleto": "Zoar Esther Cruz Vives",
-      "tipoDocumento": "CC",
-      "numeroDocumento": "1020497533",
-      "numeroCelular": "3126680593",
-      "correoElectronico": "zoaresthercruz12@gmail.com",
-      "direccion": "N/A",
-      "numeroEmergencia": "3104147179",
-      "cumple": "N/A",
-      "eps": "Sura",
-      "alergia": [
-        "Ninguna"
-      ],
-      "tipoSangre": "O+",
-      "foto": "./default.jpg"
-    }
+      {
+          "nombreCompleto": "Madelyn Gelvez Maldonado ",
+          "tipoDocumento": "CC",
+          "numeroDocumento": 1095797320,
+          "numeroCelular": "",
+          "correoElectronico": "Madelyn2015.03@gmail.com",
+          "numeroEmergencia": "",
+          "eps": "Sura",
+          "alergia": "Ninguna",
+          "tomaMedicamento": "Ninguno",
+          "tipoSangre": "O+",
+          "foto":"https://firebasestorage.googleapis.com/v0/b/alfa-orion-2291d.firebasestorage.app/o/usuario-1.jpg?alt=media"
+      },
+      {
+          "nombreCompleto": "Antonio Marin Caro",
+          "tipoDocumento": "CC",
+          "numeroDocumento": 1042353312,
+          "numeroCelular": 3194564217,
+          "correoElectronico": "amiguelm10@gmail.com",
+          "numeroEmergencia": "3138525906",
+          "eps": "Sura",
+          "alergia": "Ninguna ",
+          "tomaMedicamento": "No",
+          "tipoSangre": "A+"
+      },
+      {
+          "nombreCompleto": "Maria Antonia Machado Vaca",
+          "tipoDocumento": "TI",
+          "numeroDocumento": 1023632292,
+          "numeroCelular": "",
+          "correoElectronico": "machadomariaantonia344@gmail.com",
+          "numeroEmergencia": "3224767168 WhatsApp",
+          "eps": "Sabia salud",
+          "alergia": "Rinitis",
+          "tomaMedicamento": "Loratadina ",
+          "tipoSangre": "A+"
+      },
+      {
+          "nombreCompleto": "Wendy Brigith Aviles Garzón",
+          "tipoDocumento": "CC",
+          "numeroDocumento": 1024549267,
+          "numeroCelular": 3206742669,
+          "correoElectronico": "wanda.15.wa@gmail.com",
+          "numeroEmergencia": "3144172965",
+          "eps": "Savia salud",
+          "alergia": "Ninguna",
+          "tomaMedicamento": "No",
+          "tipoSangre": "0+"
+      },
+      {
+          "nombreCompleto": "Samuel Esteban Victoria Riascos",
+          "tipoDocumento": "CC",
+          "numeroDocumento": 1111747593,
+          "numeroCelular": 3136522600,
+          "correoElectronico": "victoriasamuel263@gmail.com",
+          "numeroEmergencia": "",
+          "eps": "SOS",
+          "alergia": "Ninguna ",
+          "tomaMedicamento": "No",
+          "tipoSangre": "A+"
+      },
+      {
+          "nombreCompleto": "Yenilin Mileth Pineda Buzón",
+          "tipoDocumento": "CC",
+          "numeroDocumento": 1062955947,
+          "numeroCelular": 3167767549,
+          "correoElectronico": "yenilin864@gmail.com ",
+          "numeroEmergencia": 3137695164,
+          "eps": "Salud total",
+          "alergia": "No",
+          "tomaMedicamento": "No",
+          "tipoSangre": "B+"
+      },
+      {
+          "nombreCompleto": "Daniel Alberto Gonzalez Chavez",
+          "tipoDocumento": "CC",
+          "numeroDocumento": 1070588772,
+          "numeroCelular": 3054379444,
+          "correoElectronico": "danielalberto.g.ch15@gmail.com",
+          "numeroEmergencia": 3133962588,
+          "eps": "SURA",
+          "alergia": "No",
+          "tomaMedicamento": "No",
+          "tipoSangre": "B+"
+      },
+      {
+          "nombreCompleto": "Sara Garzon",
+          "tipoDocumento": "CC",
+          "numeroDocumento": 1019151681,
+          "numeroCelular": 3107926060,
+          "correoElectronico": "sara.garzon99@gmail.com",
+          "numeroEmergencia": 3203304730,
+          "eps": "Sura",
+          "alergia": "Ninguna",
+          "tomaMedicamento": "No",
+          "tipoSangre": "o+"
+      },
+      {
+          "nombreCompleto": "Río Fabrizio Díaz Bassa",
+          "tipoDocumento": "TI",
+          "numeroDocumento": 1073982753,
+          "numeroCelular": 3245278068,
+          "correoElectronico": "riofdiaz77@gmail.com",
+          "numeroEmergencia": 3113065911,
+          "eps": "Fiduprevisora ",
+          "alergia": "No",
+          "tomaMedicamento": "No",
+          "tipoSangre": "A+"
+      },
+      {
+          "nombreCompleto": "Adriana Rubio Rodríguez",
+          "tipoDocumento": "CC",
+          "numeroDocumento": "109225;22",
+          "numeroCelular": 3166255451,
+          "correoElectronico": "adriana.rubio@udea.edu.co",
+          "numeroEmergencia": 3154421144,
+          "eps": "Sanitas",
+          "alergia": "Ninguna",
+          "tomaMedicamento": "No",
+          "tipoSangre": "A+"
+      },
+      {
+          "nombreCompleto": "Emmanuel Cabarcas de la Hoz",
+          "tipoDocumento": "CC",
+          "numeroDocumento": 1042850902,
+          "numeroCelular": 3025773947,
+          "correoElectronico": "emmanuel.cabarcas07@gmail.com",
+          "numeroEmergencia": "3014807351 - 3013272248",
+          "eps": "Sanitas",
+          "alergia": "polvo",
+          "tomaMedicamento": "no",
+          "tipoSangre": "A+"
+      },
+      {
+          "nombreCompleto": "Yurany Marcela Cala Diaz",
+          "tipoDocumento": "CC",
+          "numeroDocumento": 1005484573,
+          "numeroCelular": 3208355520,
+          "correoElectronico": "yuranym.calad@unac.edu.co",
+          "numeroEmergencia": 3157528510,
+          "eps": "Medimás",
+          "alergia": "Ninguna",
+          "tomaMedicamento": "Ninguno",
+          "tipoSangre": "B+"
+      },
+      {
+          "nombreCompleto": "Zoar Esther Cruz Vives",
+          "tipoDocumento": "CC",
+          "numeroDocumento": 1020497533,
+          "numeroCelular": 3126680593,
+          "correoElectronico": "zoaresthercruz12@gmail.com",
+          "numeroEmergencia": 3104147179,
+          "eps": "Sura ",
+          "alergia": "Ninguna ",
+          "tomaMedicamento": "Ninguna",
+          "tipoSangre": "O+"
+      },
+      {
+          "nombreCompleto": "Paula Angelly Riovalle Bermúdez",
+          "tipoDocumento": "CC",
+          "numeroDocumento": 1007212798,
+          "numeroCelular": 3233378092,
+          "correoElectronico": "paulaa.bermudezv@unac.edu.co",
+          "numeroEmergencia": 3217332461,
+          "eps": "El fomag",
+          "alergia": "Ninguna ",
+          "tomaMedicamento": "No",
+          "tipoSangre": "O+"
+      },
+      {
+          "nombreCompleto": "Julián Herney García Valdez",
+          "tipoDocumento": "CC",
+          "numeroDocumento": 1124849480,
+          "numeroCelular": 3161360543,
+          "correoElectronico": "juliangarciapersonal@gmail.com",
+          "numeroEmergencia": 3143005162,
+          "eps": "Emmsanar",
+          "alergia": "Cebolla",
+          "tomaMedicamento": "Ninguno",
+          "tipoSangre": "A-"
+      },
+      {
+          "nombreCompleto": "Natalia Marcela Guzmán Macías",
+          "tipoDocumento": "CC",
+          "numeroDocumento": 1100012755,
+          "numeroCelular": 3214370395,
+          "correoElectronico": "natalia050307@gmail.com",
+          "numeroEmergencia": 3218965774,
+          "eps": "Nueva eps",
+          "alergia": "Rinitis",
+          "tomaMedicamento": "Desloratadina",
+          "tipoSangre": "O-"
+      },
+      {
+          "nombreCompleto": "Juan Daniel Díaz Andrade",
+          "tipoDocumento": "CC",
+          "numeroDocumento": 1027804091,
+          "numeroCelular": 3242914830,
+          "correoElectronico": "juansisdiaz@gmail.com",
+          "numeroEmergencia": 3014971812,
+          "eps": "Nueva EPS",
+          "alergia": "Ninguna",
+          "tomaMedicamento": "No",
+          "tipoSangre": "O+"
+      },
+      {
+          "nombreCompleto": "William Florez Lopez",
+          "tipoDocumento": "CC",
+          "numeroDocumento": 1099543732,
+          "numeroCelular": 3122785239,
+          "correoElectronico": "wflcontabler@gmail.com",
+          "numeroEmergencia": 3134482949,
+          "eps": "Sura",
+          "alergia": "Ninguna ",
+          "tomaMedicamento": "Ninguno ",
+          "tipoSangre": "O+"
+      },
+      {
+          "nombreCompleto": "Loren Stephany Arias Suárez",
+          "tipoDocumento": "CC",
+          "numeroDocumento": 1006874247,
+          "numeroCelular": 3214350058,
+          "correoElectronico": "loren16arias@gmail.com",
+          "numeroEmergencia": 3102135957,
+          "eps": "Nueva EPS",
+          "alergia": "Ninguna ",
+          "tomaMedicamento": "Ninguno ",
+          "tipoSangre": "O+"
+      },
+      {
+          "nombreCompleto": "Adriana Acevedo",
+          "tipoDocumento": "CC",
+          "numeroDocumento": 1018421809,
+          "numeroCelular": 3134482949,
+          "correoElectronico": "zulellyace@hotmail.com",
+          "numeroEmergencia": 3122785239,
+          "eps": "Sura",
+          "alergia": "Ninguna ",
+          "tomaMedicamento": "Ninguna ",
+          "tipoSangre": "O+"
+      },
+      {
+          "nombreCompleto": "Jesús David Moreno Madera",
+          "tipoDocumento": "CC",
+          "numeroDocumento": 1064606555,
+          "numeroCelular": 3042686278,
+          "correoElectronico": "9.2jesusmorenomadera@gmail.com",
+          "numeroEmergencia": 3235244108,
+          "eps": "Mutual ser ",
+          "alergia": "Azitromicina ",
+          "tomaMedicamento": "No",
+          "tipoSangre": "A+"
+      },
+      {
+          "nombreCompleto": "Jose Luis Cerda Lora",
+          "tipoDocumento": "CC",
+          "numeroDocumento": 1081910267,
+          "numeroCelular": 3236476162,
+          "correoElectronico": "jcerdalora@gmail.com",
+          "numeroEmergencia": 3135580433,
+          "eps": "Mutual Ser",
+          "alergia": "Ninguna ",
+          "tomaMedicamento": "Ninguno",
+          "tipoSangre": "O+"
+      },
+      {
+          "nombreCompleto": "Gerson Hernández Teherán",
+          "tipoDocumento": "CC",
+          "numeroDocumento": 1041257036,
+          "numeroCelular": "317 650 4671 ",
+          "correoElectronico": "Sttivenhernandez3@gmail.com",
+          "numeroEmergencia": 3136521824,
+          "eps": "Savia salud ",
+          "alergia": "Ninguna ",
+          "tomaMedicamento": "No",
+          "tipoSangre": "A+"
+      },
+      {
+          "nombreCompleto": "Jorge Ivan Tapia Macea",
+          "tipoDocumento": "CC",
+          "numeroDocumento": 1238338692,
+          "numeroCelular": 3206390152,
+          "correoElectronico": "jorgeivan282@gmail.com",
+          "numeroEmergencia": 3002556643,
+          "eps": "Nueva Eps",
+          "alergia": "Ninguna",
+          "tomaMedicamento": "No",
+          "tipoSangre": "O-"
+      },
+      {
+          "nombreCompleto": "Angelica Yineth Guzman Sandoval",
+          "tipoDocumento": "CC",
+          "numeroDocumento": 1010091583,
+          "numeroCelular": 3228876868,
+          "correoElectronico": "Yineth245sguzman@gmail.com",
+          "numeroEmergencia": "3142999304 - +57 311 6937366",
+          "eps": "Salud total",
+          "alergia": "Ninguna",
+          "tomaMedicamento": "Ninguno",
+          "tipoSangre": "O+"
+      },
+      {
+          "nombreCompleto": "Billinwg Kay Paternina Caicedo",
+          "tipoDocumento": "CC",
+          "numeroDocumento": 1043960341,
+          "numeroCelular": 3007586698,
+          "correoElectronico": "billinwgkay@gmail.com",
+          "numeroEmergencia": 3008088673,
+          "eps": "Salud Total/Familiar Colombia ",
+          "alergia": "No",
+          "tomaMedicamento": "No",
+          "tipoSangre": "O+"
+      },
+      {
+          "nombreCompleto": "Heyleenwg kay Paternina Caicedo ",
+          "tipoDocumento": "CC",
+          "numeroDocumento": 1010107491,
+          "numeroCelular": 3008809744,
+          "correoElectronico": "Heykaypaca@gmail.com",
+          "numeroEmergencia": "",
+          "eps": "Epa familiar de Colombia",
+          "alergia": "Ninguna ",
+          "tomaMedicamento": "No ",
+          "tipoSangre": "O+"
+      },
+      {
+          "nombreCompleto": "Daniel Alfonso Sánchez Moreno",
+          "tipoDocumento": "CC",
+          "numeroDocumento": 1005220636,
+          "numeroCelular": 3173891538,
+          "correoElectronico": "daniel.al20135@gmail.com",
+          "numeroEmergencia": 3212364246,
+          "eps": "Sumimedical",
+          "alergia": "Pastilla dipirona ",
+          "tomaMedicamento": "Remedios para la gastritis",
+          "tipoSangre": "O+"
+      },
+      {
+          "nombreCompleto": "Sebastián Rincón Sanmiguel",
+          "tipoDocumento": "TI",
+          "numeroDocumento": 1027661544,
+          "numeroCelular": 3053389036,
+          "correoElectronico": "hhnnlelo@gmail.com",
+          "numeroEmergencia": 3176442603,
+          "eps": "Sura",
+          "alergia": "Al cerdo",
+          "tomaMedicamento": "No",
+          "tipoSangre": "B+"
+      },
+      {
+          "nombreCompleto": "Misael Sanjur",
+          "tipoDocumento": "CE",
+          "numeroDocumento": 8114595,
+          "numeroCelular": "+507 66330391",
+          "correoElectronico": "misaelsanjurr@gmail.com",
+          "numeroEmergencia": "317 7002759 midiam Quintero ",
+          "eps": "ACE American Insurance Company",
+          "alergia": "No",
+          "tomaMedicamento": "No",
+          "tipoSangre": "O+"
+      },
+      {
+          "nombreCompleto": "Laura Cuevas",
+          "tipoDocumento": "CC",
+          "numeroDocumento": 1097094500,
+          "numeroCelular": 3124828954,
+          "correoElectronico": "valentina1805lv.2005@gmail.com",
+          "numeroEmergencia": 3112329442,
+          "eps": "Sanitas ",
+          "alergia": 0,
+          "tomaMedicamento": "Metoclopramida",
+          "tipoSangre": "O+"
+      },
+      {
+          "nombreCompleto": "Leidy Natalia Atahualpa Echeverry",
+          "tipoDocumento": "CC",
+          "numeroDocumento": 1005717478,
+          "numeroCelular": 3015696870,
+          "correoElectronico": "Leidy.atahualpae@unac.edu.co",
+          "numeroEmergencia": 3224809664,
+          "eps": "Sura",
+          "alergia": "Ninguna",
+          "tomaMedicamento": "No",
+          "tipoSangre": "A+"
+      },
+      {
+          "nombreCompleto": "Adrian Gomez Beltran",
+          "tipoDocumento": "CC",
+          "numeroDocumento": 71387923,
+          "numeroCelular": 3022183569,
+          "correoElectronico": "angel2015.03@gmail.com",
+          "numeroEmergencia": 3183902993,
+          "eps": "SURA",
+          "alergia": "NINGUNA",
+          "tomaMedicamento": "NINGUNO",
+          "tipoSangre": "B+"
+      },
+      {
+          "nombreCompleto": "Jordin Ávila Vargas",
+          "tipoDocumento": "CC",
+          "numeroDocumento": 1044927349,
+          "numeroCelular": 3008862758,
+          "correoElectronico": "javilavargas15@gmail.com",
+          "numeroEmergencia": 3213236627,
+          "eps": "Coosalud ",
+          "alergia": "Diclofenaco en inyecciones",
+          "tomaMedicamento": "No",
+          "tipoSangre": "A+"
+      },
+      {
+          "nombreCompleto": "Andrés David León Moreno",
+          "tipoDocumento": "CC",
+          "numeroDocumento": 1007898139,
+          "numeroCelular": 3224809664,
+          "correoElectronico": "andresleon2419@gmail.com",
+          "numeroEmergencia": 3132267603,
+          "eps": "Salud total ",
+          "alergia": "No",
+          "tomaMedicamento": "Eutirox 50",
+          "tipoSangre": "O+"
+      },
+      {
+          "nombreCompleto": "Juan José Buitrago Suescún",
+          "tipoDocumento": "CC",
+          "numeroDocumento": 1051955648,
+          "numeroCelular": 3219356953,
+          "correoElectronico": "juanj.buitragos@unac.edu.co",
+          "numeroEmergencia": 3123777072,
+          "eps": "Nueva Eps",
+          "alergia": "Ninguna ",
+          "tomaMedicamento": "Ninguno ",
+          "tipoSangre": "O+"
+      },
+      {
+          "nombreCompleto": "Fredys Garces Olivares",
+          "tipoDocumento": "CC",
+          "numeroDocumento": 1007126108,
+          "numeroCelular": 3012622403,
+          "correoElectronico": "fgarcesolivares@gmail.com",
+          "numeroEmergencia": 4024889178,
+          "eps": "Sura",
+          "alergia": "Ninguna",
+          "tomaMedicamento": "Ferbin 250mg",
+          "tipoSangre": "B+"
+      }
   ]
 }

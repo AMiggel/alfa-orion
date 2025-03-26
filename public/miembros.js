@@ -1,25 +1,67 @@
+let miembrosData;
+
 fetch('miembros.json')
   .then(response => response.json())
   .then(data => {
+    miembrosData = data;
     const contenedor = document.getElementById('contenedorMiembros');
 
-    data.miembros.forEach(miembro => {
+    data.miembros.forEach((miembro, index) => {
       const div = document.createElement('div');
-      div.className = 'col';
+      div.className = 'col miembro-card';
+      div.dataset.nombre = miembro.nombreCompleto.toLowerCase(); // Guardamos nombre en minúsculas
+      div.dataset.id = miembro.numeroDocumento; // Guardamos ID para la búsqueda
 
       div.innerHTML = `
-     
-                        <img class="u-image animated flipInX image-card"
-                            src="https://firebasestorage.googleapis.com/v0/b/alfa-orion-2291d.firebasestorage.app/o/usuario-1.jpg?alt=media"
-                            alt="" data-image-width="1334" data-image-height="2000" data-animation-name="flipIn"
-                            data-animation-duration="3000" data-animation-delay="0" data-animation-direction="X"
-                            style="height: 300px;width: 225px;will-change: transform;animation-duration: 3000ms;">
-                        <a onclick="mostrarPopup()">
-                            <h5 u-align-center u-text u-text-default u-text-5 style="margin: 15px 30px 40px; font-size: 16px;">${miembro.nombreCompleto}</h5>
-       
+          <img class="u-image animated flipInX image-card"
+              src="https://firebasestorage.googleapis.com/v0/b/alfa-orion-2291d.firebasestorage.app/o/usuario-1.jpg?alt=media"
+              alt="${miembro.nombreCompleto}" 
+              data-image-width="1334" 
+              data-image-height="2000" 
+              style="height: 300px;width: 225px;will-change: transform;animation-duration: 3000ms;">
+          <a onclick="mostrarPopup(${index})">
+              <h5 style="margin: 15px 30px 40px; font-size: 16px;">${miembro.nombreCompleto}</h5>
+          </a>
       `;
 
       contenedor.appendChild(div);
     });
   })
   .catch(error => console.error('Error al cargar el JSON:', error));
+function mostrarPopup(indice) {
+  const miembro = miembrosData.miembros[indice];
+  document.getElementById("popup-nombre").innerHTML = miembro.nombreCompleto;
+  document.getElementById("popup-id").textContent = miembro.numeroDocumento;
+  document.getElementById("popup-email").textContent = miembro.correoElectronico;
+  document.getElementById("popup-telefono").textContent = miembro.numeroCelular|| "No refiere";
+  document.getElementById("popup-emergencia").textContent = miembro.numeroEmergencia || "No refiere";
+  document.getElementById("popup-eps").textContent = miembro.eps;
+  document.getElementById("popup-alergias").textContent = miembro.alergia;
+  document.getElementById("popup-medicamentos").textContent = miembro.medicamento || "No";
+  document.getElementById("popup-sangre").textContent = miembro.tipoSangre;
+  document.getElementById("popup-foto").src = miembro.foto;
+
+  document.getElementById("popupFondo").style.display = "block";
+}
+
+function cerrarPopup() {
+  document.getElementById("popupFondo").style.display = "none";
+}
+
+function filtrarMiembros() {
+  const filtro = document.getElementById('buscador').value.toLowerCase();
+  const miembros = document.querySelectorAll('.miembro-card');
+
+  miembros.forEach(miembro => {
+      const nombre = miembro.dataset.nombre;
+      const id = miembro.dataset.id;
+      
+      // Mostrar u ocultar el miembro si coincide con la búsqueda
+      if (nombre.includes(filtro) || id.includes(filtro)) {
+          miembro.style.display = "block";
+      } else {
+          miembro.style.display = "none";
+      }
+  });
+}
+

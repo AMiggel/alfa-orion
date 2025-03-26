@@ -3,7 +3,18 @@
  * License https://froala.com/wysiwyg-editor/terms/
  * Copyright 2014-2021 Froala Labs
  */
-
+.buscador{
+  width: 100%;
+  padding: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 10px solid #efbb5f;
+  border-bottom-width: unset;
+  text-align: center;
+  font-size: 19px;
+  background-color: unset;
+}
 .fr-clearfix::after {
   clear: both;
   display: block;

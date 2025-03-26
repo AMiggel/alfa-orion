@@ -1,13 +1,5 @@
 <!DOCTYPE html>
 <html style="font-size: 16px;" lang="es">
-<script>
-    function mostrarPopup() {
-        document.getElementById("popupFondo").style.display = "block";
-    }
-    function cerrarPopup() {
-        document.getElementById("popupFondo").style.display = "none";
-    }
-</script>
 <style>
     #popupFondo {
         display: none;
@@ -38,9 +30,11 @@
         margin-top: 10px !important;
         margin-bottom: 10px !important;
     }
-    .image-card{
+
+    .image-card {
         box-shadow: 0px 0px 10px 0px;
-        margin-left: auto;width: 77%;
+        margin-left: auto;
+        width: 77%;
         margin-right: auto;
         display: block;
     }
@@ -182,71 +176,76 @@
     </section>
 
     <section class="u-clearfix u-container-align-center u-palette-3-light-3 u-section-7" id="sec-1005">
-        <div>
-            <h2 style="text-align: center; margin: 63px;"> Miembros de <span class="u-text-palette-3-base">nuestro
-                    Club</span>
-            </h2>
-            <div class="container">
-                <div class="row row-cols-4" id="contenedorMiembros"></div>
+
+        <h2 style="text-align: center; margin: 63px;"> Miembros de <span class="u-text-palette-3-base">nuestro
+                Club</span>
+        </h2>
+        <div class="container">
+            <div class="input-group input-group-sm" style="
+                margin-bottom: 50px;
+                margin-left: auto;
+                margin-right: auto;
+                width: 97%;">
+
+                <input id="buscador" placeholder="Buscar miembro por nombre o Identificación..." type="text" oninput="filtrarMiembros()" class="buscador" aria-label="Small"
+                    aria-describedby="inputGroup-sizing-sm">
             </div>
+        </div>
+        <div class="container">
+            <div class="row row-cols-4" id="contenedorMiembros"></div>
+        </div>
     </section>
 
     <div id="popupFondo" class="modal" tabindex="-1" aria-hidden="true">
-        <div class="modal-dialog  modal-xl">
+        <div class="modal-dialog modal-xl">
             <div class="modal-content flipInX" data-animation-name="flipIn" data-animation-duration="3000"
                 data-animation-delay="0" data-animation-direction="X"
                 style=" box-shadow: 5px 5px 5px #0000004a; will-change: transform; animation-duration: 2000ms;margin-top: 10px; border-radius: 10px;background-color: #fdf8ee;">
 
                 <div class="modal-body" style="padding-left: 40px;">
                     <div class="container">
-                        <div class="row  row-cols-2">
+                        <div class="row row-cols-2">
                             <div class="col">
-
-                                <h2 lass="u-align-left u-text u-text-default u-text-1">
-                                    Adriana <span class="u-text-palette-3-base"> <br>Acevedo</span></h2>
+                                <h2 class="u-align-left u-text u-text-default u-text-1">
+                                    <span id="popup-nombre"></span>
+                                </h2>
                                 <h5 class="u-align-left u-text u-text-3">
-
                                     <span style="font-weight: 700;text-transform: capitalize;">Identificación:</span>
-                                    <span style="font-weight: 300; text-transform: lowercase;"> CC 1234567890</span>
+                                    <span id="popup-id" style="font-weight: 300;"></span>
                                 </h5>
                                 <h5 class="u-align-left u-text u-text-3">
-                                    <span style="font-weight: 700; text-transform: capitalize;">Email: </span>
-                                    <span style="font-weight: 300; text-transform: lowercase;">adriana.acevedo@email.com
+                                    <span style="font-weight: 700; text-transform: capitalize;">Email:</span>
+                                    <span id="popup-email" style="font-weight: 300; text-transform: lowercase;"></span>
                                 </h5>
                                 <h5 class="u-align-left u-text u-text-3">
-                                    <span style="font-weight: 700; text-transform: capitalize;">Teléfono:
-                                    </span>
-                                    <span style="font-weight: 300; text-transform: lowercase;">3001112233
-                                </h5>
-                                <h5 class="u-align-left u-text u-text-3">
-                                    <span style="font-weight: 700; text-transform: capitalize;">Dirección:
-                                    </span>
-                                    <span style="font-weight: 300; text-transform: lowercase;">Calle 123 #45-67
+                                    <span style="font-weight: 700; text-transform: capitalize;">Teléfono:</span>
+                                    <span id="popup-telefono" style="font-weight: 300;"></span>
                                 </h5>
                                 <h5 class="u-align-left u-text u-text-3">
                                     <span style="font-weight: 700; text-transform: capitalize;">Contacto de
-                                        emergencia: </span>
-                                    <span style="font-weight: 300; text-transform: lowercase;">Calle 123 #45-67
+                                        emergencia:</span>
+                                    <span id="popup-emergencia" style="font-weight: 300;"></span>
                                 </h5>
                                 <h5 class="u-align-left u-text u-text-3">
-                                    <span style="font-weight: 700; text-transform: capitalize;">Eps: </span>
-                                    <span style="font-weight: 300; text-transform: lowercase;">Calle 123 #45-67
+                                    <span style="font-weight: 700; text-transform: capitalize;">Eps:</span>
+                                    <span id="popup-eps" style="font-weight: 300;"></span>
                                 </h5>
                                 <h5 class="u-align-left u-text u-text-3">
-                                    <span style="font-weight: 700; text-transform: capitalize;">Alergias:
-                                    </span>
-                                    <span style="font-weight: 300; text-transform: lowercase;">Calle 123 #45-67
+                                    <span style="font-weight: 700; text-transform: capitalize;">Alergias:</span>
+                                    <span id="popup-alergias" style="font-weight: 300;"></span>
                                 </h5>
                                 <h5 class="u-align-left u-text u-text-3">
-                                    <span style="font-weight: 700; text-transform: capitalize;">Tipo de sangre:
-                                    </span>
-                                    <span style="font-weight: 300; text-transform: lowercase;">Calle 123 #45-67
+                                    <span style="font-weight: 700; text-transform: capitalize;">Toma algún
+                                        medicamento:</span>
+                                    <span id="popup-medicamentos" style="font-weight: 300;"></span>
                                 </h5>
-
+                                <h5 class="u-align-left u-text u-text-3">
+                                    <span style="font-weight: 700; text-transform: capitalize;">Tipo de sangre:</span>
+                                    <span id="popup-sangre" style="font-weight: 300;"></span>
+                                </h5>
                             </div>
                             <div class="col">
-                                <img src="https://firebasestorage.googleapis.com/v0/b/alfa-orion-2291d.firebasestorage.app/o/usuario-1.jpg?alt=media" 
-                                class="image-card">
+                                <img id="popup-foto" src="" class="image-card" alt="Foto del miembro">
                             </div>
                         </div>
                     </div>
@@ -255,9 +254,8 @@
                 <div class="modal-footer">
                     <img src="../members_files/bars.png" class="position-absolute bottom-0 start-0"
                         style="width: 184px;margin: -35px;" alt="">
-
-                    <button type="button" onclick="cerrarPopup()" style="margin: 10px; background-color: black;" class="btn btn-secondary"
-                        data-bs-dismiss="modal">CERRAR</button>
+                    <button type="button" onclick="cerrarPopup()" style="margin: 10px; background-color: black;"
+                        class="btn btn-secondary" data-bs-dismiss="modal">CERRAR</button>
                 </div>
             </div>
         </div>
@@ -460,13 +458,13 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
             </div>
         </div>
     </section>
- 
+
 
     <section class="u-backlink u-clearfix u-grey-80">
         <p class="u-text">
-            <span>"Estad, pues, firmes, ceñida vuestra cintura con la verdad, vestidos con la coraza de justicia 
+            <span>"Estad, pues, firmes, ceñida vuestra cintura con la verdad, vestidos con la coraza de justicia
                 y calzados los pies con el celo por anunciar el evangelio de la paz." ❤️</span>
-                <br><span>Efesios 6:14-15</span>
+            <br><span>Efesios 6:14-15</span>
             </a>
         </p>
     </section>
