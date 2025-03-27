@@ -1,17 +1,17 @@
 {
   "miembros": [
       {
-          "nombreCompleto": "Madelyn Gelvez Maldonado ",
+          "nombreCompleto": "madelyn Gelvez Maldonado ",
           "tipoDocumento": "CC",
           "numeroDocumento": 1095797320,
           "numeroCelular": "",
-          "correoElectronico": "Madelyn2015.03@gmail.com",
+          "correoElectronico": "madelyn2015.03@gmail.com",
           "numeroEmergencia": "",
           "eps": "Sura",
           "alergia": "Ninguna",
           "tomaMedicamento": "Ninguno",
           "tipoSangre": "O+",
-          "foto":"https://firebasestorage.googleapis.com/v0/b/alfa-orion-2291d.firebasestorage.app/o/usuario-1.jpg?alt=media"
+          "foto":"https://firebasestorage.googleapis.com/v0/b/alfa-orion-2291d.firebasestorage.app/o/madelyn.jpg?alt=media"
       },
       {
           "nombreCompleto": "Antonio Marin Caro",
@@ -23,7 +23,8 @@
           "eps": "Sura",
           "alergia": "Ninguna ",
           "tomaMedicamento": "No",
-          "tipoSangre": "A+"
+          "tipoSangre": "A+",
+           "foto":"https://firebasestorage.googleapis.com/v0/b/alfa-orion-2291d.firebasestorage.app/o/antonio.jpg?alt=media"
       },
       {
           "nombreCompleto": "Maria Antonia Machado Vaca",
@@ -35,7 +36,8 @@
           "eps": "Sabia salud",
           "alergia": "Rinitis",
           "tomaMedicamento": "Loratadina ",
-          "tipoSangre": "A+"
+          "tipoSangre": "A+",
+          "foto":"https://firebasestorage.googleapis.com/v0/b/alfa-orion-2291d.firebasestorage.app/o/maria-antonia.jpg?alt=media"
       },
       {
           "nombreCompleto": "Wendy Brigith Aviles Garzón",
@@ -47,7 +49,8 @@
           "eps": "Savia salud",
           "alergia": "Ninguna",
           "tomaMedicamento": "No",
-          "tipoSangre": "0+"
+          "tipoSangre": "0+",
+          "foto":"https://firebasestorage.googleapis.com/v0/b/alfa-orion-2291d.firebasestorage.app/o/wndy.jpg?alt=media"
       },
       {
           "nombreCompleto": "Samuel Esteban Victoria Riascos",
@@ -59,7 +62,8 @@
           "eps": "SOS",
           "alergia": "Ninguna ",
           "tomaMedicamento": "No",
-          "tipoSangre": "A+"
+          "tipoSangre": "A+",
+          "foto":"https://firebasestorage.googleapis.com/v0/b/alfa-orion-2291d.firebasestorage.app/o/sinfoto.jpg?alt=media"
       },
       {
           "nombreCompleto": "Yenilin Mileth Pineda Buzón",
@@ -71,7 +75,8 @@
           "eps": "Salud total",
           "alergia": "No",
           "tomaMedicamento": "No",
-          "tipoSangre": "B+"
+          "tipoSangre": "B+",
+          "foto":"https://firebasestorage.googleapis.com/v0/b/alfa-orion-2291d.firebasestorage.app/o/sinfoto.jpg?alt=media"
       },
       {
           "nombreCompleto": "Daniel Alberto Gonzalez Chavez",
@@ -83,7 +88,8 @@
           "eps": "SURA",
           "alergia": "No",
           "tomaMedicamento": "No",
-          "tipoSangre": "B+"
+          "tipoSangre": "B+",
+          "foto":"https://firebasestorage.googleapis.com/v0/b/alfa-orion-2291d.firebasestorage.app/o/daniel-g.jpg?alt=media"
       },
       {
           "nombreCompleto": "Sara Garzon",
@@ -95,7 +101,8 @@
           "eps": "Sura",
           "alergia": "Ninguna",
           "tomaMedicamento": "No",
-          "tipoSangre": "o+"
+          "tipoSangre": "o+",
+          "foto":"https://firebasestorage.googleapis.com/v0/b/alfa-orion-2291d.firebasestorage.app/o/sinfoto.jpg?alt=media"
       },
       {
           "nombreCompleto": "Río Fabrizio Díaz Bassa",
@@ -107,7 +114,8 @@
           "eps": "Fiduprevisora ",
           "alergia": "No",
           "tomaMedicamento": "No",
-          "tipoSangre": "A+"
+          "tipoSangre": "A+",
+          "foto":"https://firebasestorage.googleapis.com/v0/b/alfa-orion-2291d.firebasestorage.app/o/sinfoto.jpg?alt=media"
       },
       {
           "nombreCompleto": "Adriana Rubio Rodríguez",
@@ -119,7 +127,8 @@
           "eps": "Sanitas",
           "alergia": "Ninguna",
           "tomaMedicamento": "No",
-          "tipoSangre": "A+"
+          "tipoSangre": "A+",
+          "foto":"https://firebasestorage.googleapis.com/v0/b/alfa-orion-2291d.firebasestorage.app/o/adriana-r.jpg?alt=media"
       },
       {
           "nombreCompleto": "Emmanuel Cabarcas de la Hoz",
@@ -131,7 +140,8 @@
           "eps": "Sanitas",
           "alergia": "polvo",
           "tomaMedicamento": "no",
-          "tipoSangre": "A+"
+          "tipoSangre": "A+",
+          "foto":"https://firebasestorage.googleapis.com/v0/b/alfa-orion-2291d.firebasestorage.app/o/emmanuel.jpg?alt=media"
       },
       {
           "nombreCompleto": "Yurany Marcela Cala Diaz",
@@ -143,7 +153,8 @@
           "eps": "Medimás",
           "alergia": "Ninguna",
           "tomaMedicamento": "Ninguno",
-          "tipoSangre": "B+"
+          "tipoSangre": "B+",
+          "foto":"https://firebasestorage.googleapis.com/v0/b/alfa-orion-2291d.firebasestorage.app/o/sinfoto.jpg?alt=media"
       },
       {
           "nombreCompleto": "Zoar Esther Cruz Vives",
@@ -155,7 +166,8 @@
           "eps": "Sura ",
           "alergia": "Ninguna ",
           "tomaMedicamento": "Ninguna",
-          "tipoSangre": "O+"
+          "tipoSangre": "O+",
+          "foto":"https://firebasestorage.googleapis.com/v0/b/alfa-orion-2291d.firebasestorage.app/o/zoar.jpg?alt=media"
       },
       {
           "nombreCompleto": "Paula Angelly Riovalle Bermúdez",
@@ -167,7 +179,8 @@
           "eps": "El fomag",
           "alergia": "Ninguna ",
           "tomaMedicamento": "No",
-          "tipoSangre": "O+"
+          "tipoSangre": "O+",
+          "foto":"https://firebasestorage.googleapis.com/v0/b/alfa-orion-2291d.firebasestorage.app/o/angelly.jpg?alt=media"
       },
       {
           "nombreCompleto": "Julián Herney García Valdez",
@@ -179,7 +192,8 @@
           "eps": "Emmsanar",
           "alergia": "Cebolla",
           "tomaMedicamento": "Ninguno",
-          "tipoSangre": "A-"
+          "tipoSangre": "A-",
+          "foto":"https://firebasestorage.googleapis.com/v0/b/alfa-orion-2291d.firebasestorage.app/o/sinfoto.jpg?alt=media"
       },
       {
           "nombreCompleto": "Natalia Marcela Guzmán Macías",
@@ -191,7 +205,8 @@
           "eps": "Nueva eps",
           "alergia": "Rinitis",
           "tomaMedicamento": "Desloratadina",
-          "tipoSangre": "O-"
+          "tipoSangre": "O-",
+          "foto":"https://firebasestorage.googleapis.com/v0/b/alfa-orion-2291d.firebasestorage.app/o/sinfoto.jpg?alt=media"
       },
       {
           "nombreCompleto": "Juan Daniel Díaz Andrade",
@@ -203,7 +218,8 @@
           "eps": "Nueva EPS",
           "alergia": "Ninguna",
           "tomaMedicamento": "No",
-          "tipoSangre": "O+"
+          "tipoSangre": "O+",
+          "foto":"https://firebasestorage.googleapis.com/v0/b/alfa-orion-2291d.firebasestorage.app/o/juan.jpg?alt=media"
       },
       {
           "nombreCompleto": "William Florez Lopez",
@@ -215,7 +231,8 @@
           "eps": "Sura",
           "alergia": "Ninguna ",
           "tomaMedicamento": "Ninguno ",
-          "tipoSangre": "O+"
+          "tipoSangre": "O+",
+          "foto":"https://firebasestorage.googleapis.com/v0/b/alfa-orion-2291d.firebasestorage.app/o/william.jpg?alt=media"
       },
       {
           "nombreCompleto": "Loren Stephany Arias Suárez",
@@ -227,7 +244,8 @@
           "eps": "Nueva EPS",
           "alergia": "Ninguna ",
           "tomaMedicamento": "Ninguno ",
-          "tipoSangre": "O+"
+          "tipoSangre": "O+",
+          "foto":"https://firebasestorage.googleapis.com/v0/b/alfa-orion-2291d.firebasestorage.app/o/sinfoto.jpg?alt=media"
       },
       {
           "nombreCompleto": "Adriana Acevedo",
@@ -239,7 +257,8 @@
           "eps": "Sura",
           "alergia": "Ninguna ",
           "tomaMedicamento": "Ninguna ",
-          "tipoSangre": "O+"
+          "tipoSangre": "O+",
+          "foto":"https://firebasestorage.googleapis.com/v0/b/alfa-orion-2291d.firebasestorage.app/o/adriana-a.jpg?alt=media"
       },
       {
           "nombreCompleto": "Jesús David Moreno Madera",
@@ -251,7 +270,8 @@
           "eps": "Mutual ser ",
           "alergia": "Azitromicina ",
           "tomaMedicamento": "No",
-          "tipoSangre": "A+"
+          "tipoSangre": "A+",
+          "foto":"https://firebasestorage.googleapis.com/v0/b/alfa-orion-2291d.firebasestorage.app/o/sinfoto.jpg?alt=media"
       },
       {
           "nombreCompleto": "Jose Luis Cerda Lora",
@@ -263,7 +283,8 @@
           "eps": "Mutual Ser",
           "alergia": "Ninguna ",
           "tomaMedicamento": "Ninguno",
-          "tipoSangre": "O+"
+          "tipoSangre": "O+",
+          "foto":"https://firebasestorage.googleapis.com/v0/b/alfa-orion-2291d.firebasestorage.app/o/IMG_1126.jpg?alt=media"
       },
       {
           "nombreCompleto": "Gerson Hernández Teherán",
@@ -275,7 +296,8 @@
           "eps": "Savia salud ",
           "alergia": "Ninguna ",
           "tomaMedicamento": "No",
-          "tipoSangre": "A+"
+          "tipoSangre": "A+",
+          "foto":"https://firebasestorage.googleapis.com/v0/b/alfa-orion-2291d.firebasestorage.app/o/gerson.jpg?alt=media"
       },
       {
           "nombreCompleto": "Jorge Ivan Tapia Macea",
@@ -287,10 +309,11 @@
           "eps": "Nueva Eps",
           "alergia": "Ninguna",
           "tomaMedicamento": "No",
-          "tipoSangre": "O-"
+          "tipoSangre": "O-",
+          "foto":"https://firebasestorage.googleapis.com/v0/b/alfa-orion-2291d.firebasestorage.app/o/jorge.jpg?alt=media"
       },
       {
-          "nombreCompleto": "Angelica Yineth Guzman Sandoval",
+          "nombreCompleto": "Angelica Guzman Sandoval",
           "tipoDocumento": "CC",
           "numeroDocumento": 1010091583,
           "numeroCelular": 3228876868,
@@ -299,7 +322,8 @@
           "eps": "Salud total",
           "alergia": "Ninguna",
           "tomaMedicamento": "Ninguno",
-          "tipoSangre": "O+"
+          "tipoSangre": "O+",
+          "foto":"https://firebasestorage.googleapis.com/v0/b/alfa-orion-2291d.firebasestorage.app/o/angelica.jpg?alt=media"
       },
       {
           "nombreCompleto": "Billinwg Kay Paternina Caicedo",
@@ -311,7 +335,8 @@
           "eps": "Salud Total/Familiar Colombia ",
           "alergia": "No",
           "tomaMedicamento": "No",
-          "tipoSangre": "O+"
+          "tipoSangre": "O+",
+          "foto":"https://firebasestorage.googleapis.com/v0/b/alfa-orion-2291d.firebasestorage.app/o/bill.jpg?alt=media"
       },
       {
           "nombreCompleto": "Heyleenwg kay Paternina Caicedo ",
@@ -323,7 +348,8 @@
           "eps": "Epa familiar de Colombia",
           "alergia": "Ninguna ",
           "tomaMedicamento": "No ",
-          "tipoSangre": "O+"
+          "tipoSangre": "O+",
+          "foto":"https://firebasestorage.googleapis.com/v0/b/alfa-orion-2291d.firebasestorage.app/o/sinfoto.jpg?alt=media"
       },
       {
           "nombreCompleto": "Daniel Alfonso Sánchez Moreno",
@@ -335,7 +361,8 @@
           "eps": "Sumimedical",
           "alergia": "Pastilla dipirona ",
           "tomaMedicamento": "Remedios para la gastritis",
-          "tipoSangre": "O+"
+          "tipoSangre": "O+",
+          "foto":"https://firebasestorage.googleapis.com/v0/b/alfa-orion-2291d.firebasestorage.app/o/sinfoto.jpg?alt=media"
       },
       {
           "nombreCompleto": "Sebastián Rincón Sanmiguel",
@@ -347,7 +374,8 @@
           "eps": "Sura",
           "alergia": "Al cerdo",
           "tomaMedicamento": "No",
-          "tipoSangre": "B+"
+          "tipoSangre": "B+",
+          "foto":"https://firebasestorage.googleapis.com/v0/b/alfa-orion-2291d.firebasestorage.app/o/sebastian.jpg?alt=media"
       },
       {
           "nombreCompleto": "Misael Sanjur",
@@ -359,7 +387,8 @@
           "eps": "ACE American Insurance Company",
           "alergia": "No",
           "tomaMedicamento": "No",
-          "tipoSangre": "O+"
+          "tipoSangre": "O+",
+          "foto":"https://firebasestorage.googleapis.com/v0/b/alfa-orion-2291d.firebasestorage.app/o/sinfoto.jpg?alt=media"
       },
       {
           "nombreCompleto": "Laura Cuevas",
@@ -371,7 +400,8 @@
           "eps": "Sanitas ",
           "alergia": 0,
           "tomaMedicamento": "Metoclopramida",
-          "tipoSangre": "O+"
+          "tipoSangre": "O+",
+          "foto":"https://firebasestorage.googleapis.com/v0/b/alfa-orion-2291d.firebasestorage.app/o/sinfoto.jpg?alt=media"
       },
       {
           "nombreCompleto": "Leidy Natalia Atahualpa Echeverry",
@@ -383,7 +413,8 @@
           "eps": "Sura",
           "alergia": "Ninguna",
           "tomaMedicamento": "No",
-          "tipoSangre": "A+"
+          "tipoSangre": "A+",
+          "foto":"https://firebasestorage.googleapis.com/v0/b/alfa-orion-2291d.firebasestorage.app/o/natalia.jpg?alt=media"
       },
       {
           "nombreCompleto": "Adrian Gomez Beltran",
@@ -395,7 +426,8 @@
           "eps": "SURA",
           "alergia": "NINGUNA",
           "tomaMedicamento": "NINGUNO",
-          "tipoSangre": "B+"
+          "tipoSangre": "B+",
+          "foto":"https://firebasestorage.googleapis.com/v0/b/alfa-orion-2291d.firebasestorage.app/o/adrian.jpg?alt=media"
       },
       {
           "nombreCompleto": "Jordin Ávila Vargas",
@@ -407,7 +439,8 @@
           "eps": "Coosalud ",
           "alergia": "Diclofenaco en inyecciones",
           "tomaMedicamento": "No",
-          "tipoSangre": "A+"
+          "tipoSangre": "A+",
+          "foto":"https://firebasestorage.googleapis.com/v0/b/alfa-orion-2291d.firebasestorage.app/o/sinfoto.jpg?alt=media"
       },
       {
           "nombreCompleto": "Andrés David León Moreno",
@@ -419,7 +452,8 @@
           "eps": "Salud total ",
           "alergia": "No",
           "tomaMedicamento": "Eutirox 50",
-          "tipoSangre": "O+"
+          "tipoSangre": "O+",
+          "foto":"https://firebasestorage.googleapis.com/v0/b/alfa-orion-2291d.firebasestorage.app/o/sinfoto.jpg?alt=media"
       },
       {
           "nombreCompleto": "Juan José Buitrago Suescún",
@@ -431,7 +465,8 @@
           "eps": "Nueva Eps",
           "alergia": "Ninguna ",
           "tomaMedicamento": "Ninguno ",
-          "tipoSangre": "O+"
+          "tipoSangre": "O+",
+          "foto":"https://firebasestorage.googleapis.com/v0/b/alfa-orion-2291d.firebasestorage.app/o/juan-buitrago.jpg?alt=media"
       },
       {
           "nombreCompleto": "Fredys Garces Olivares",
@@ -443,7 +478,8 @@
           "eps": "Sura",
           "alergia": "Ninguna",
           "tomaMedicamento": "Ferbin 250mg",
-          "tipoSangre": "B+"
+          "tipoSangre": "B+",
+          "foto":"https://firebasestorage.googleapis.com/v0/b/alfa-orion-2291d.firebasestorage.app/o/sinfoto.jpg?alt=media"
       }
   ]
 }

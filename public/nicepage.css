@@ -15,6 +15,10 @@
   font-size: 19px;
   background-color: unset;
 }
+
+.miembro-card{
+  text-align: center;
+}
 .fr-clearfix::after {
   clear: both;
   display: block;

@@ -13,14 +13,16 @@ fetch('miembros.json')
       div.dataset.id = miembro.numeroDocumento; // Guardamos ID para la búsqueda
 
       div.innerHTML = `
-          <img class="u-image animated flipInX image-card"
-              src="https://firebasestorage.googleapis.com/v0/b/alfa-orion-2291d.firebasestorage.app/o/usuario-1.jpg?alt=media"
+          <img  class="u-image animated flipInX image-card"
+              src=${miembro.foto}
               alt="${miembro.nombreCompleto}" 
               data-image-width="1334" 
               data-image-height="2000" 
-              style="height: 300px;width: 225px;will-change: transform;animation-duration: 3000ms;">
-          <a onclick="mostrarPopup(${index})">
-              <h5 style="margin: 15px 30px 40px; font-size: 16px;">${miembro.nombreCompleto}</h5>
+              style="height: 300px;width: 225px;will-change: transform;animation-duration: 3000ms; cursor: pointer" onclick="mostrarPopup(${index})">
+          <a style="cursor: pointer;" onclick="mostrarPopup(${index})">
+              <h5 style="margin-top: 5%; font-size: 16px;">${miembro.nombreCompleto}</h5>
+              <h6 >Principiantes</h6>
+
           </a>
       `;
 
