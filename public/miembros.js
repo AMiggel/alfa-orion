@@ -10,7 +10,7 @@ fetch('miembros.json')
       const div = document.createElement('div');
       div.className = 'col miembro-card';
       div.dataset.nombre = miembro.nombreCompleto.toLowerCase(); // Guardamos nombre en minúsculas
-      div.dataset.id = miembro.numeroDocumento; // Guardamos ID para la búsqueda
+      div.dataset.id = miembro.cargo.toLowerCase(); // Guardamos ID para la búsqueda
 
       div.innerHTML = `
           <img  class="u-image animated flipInX image-card"
@@ -21,7 +21,7 @@ fetch('miembros.json')
               style="height: 300px;width: 225px;will-change: transform;animation-duration: 3000ms; cursor: pointer" onclick="mostrarPopup(${index})">
           <a style="cursor: pointer;" onclick="mostrarPopup(${index})">
               <h5 style="margin-top: 5%; font-size: 16px;">${miembro.nombreCompleto}</h5>
-              <h6 >Principiantes</h6>
+              <h6 style="margin-bottom: 25px;">${miembro.cargo}</h6>
 
           </a>
       `;
