@@ -1,6 +1,6 @@
  .u-section-1 {
   background-repeat: no-repeat;
-  background-image: url("images/close-up-hiker-carrying-backpackcopy.jpg?rand=e3e3");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/fondo.jpeg");
 }
 
 .u-section-1 .u-sheet-1 {

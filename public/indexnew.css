@@ -1,15 +1,15 @@
-
-}.u-section-2 .u-sheet-1 {
-  min-height: 653px;
+ .u-section-2 .u-sheet-1 {
+  min-height: 370px;
 }
 
 .u-section-2 .u-list-1 {
-  margin: 14px auto 60px -21px;
+  margin-top: 7px;
+  margin-bottom: 49px;
 }
 
 .u-section-2 .u-repeater-1 {
-  grid-auto-columns: calc(33.3333% - 20px);
-  grid-template-columns: repeat(3, calc(33.3333% - 20px));
+  grid-auto-columns: calc(25% - 22.5px);
+  grid-template-columns: repeat(4, calc(25% - 22.5px));
   min-height: 314px;
   grid-gap: 30px;
 }
@@ -74,31 +74,45 @@
   margin: 30px auto 0;
 }
 
+.u-section-2 .u-container-layout-4 {
+  padding: 10px;
+}
+
+.u-section-2 .u-shape-4 {
+  width: 183px;
+  height: 137px;
+  margin: 60px auto 0;
+}
+
+.u-section-2 .u-icon-4 {
+  width: 64px;
+  height: 64px;
+  margin: -119px auto 0;
+}
+
+.u-section-2 .u-text-4 {
+  margin: 30px auto 0;
+}
+
 @media (max-width: 1199px) {
   .u-section-2 .u-list-1 {
     margin-top: 46px;
-    margin-right: initial;
-    margin-left: initial;
   }
 
   .u-section-2 .u-repeater-1 {
-    grid-auto-columns: calc(33.333333333333336% - 20px);
-    grid-template-columns: repeat(3, calc(33.333333333333336% - 20px));
-    min-height: 251px;
+    min-height: 254px;
   }
 }
 
 @media (max-width: 991px) {
   .u-section-2 .u-list-1 {
-    margin-top: 14px;
-    margin-right: initial;
-    margin-left: initial;
+    margin-top: 7px;
   }
 
   .u-section-2 .u-repeater-1 {
     grid-auto-columns: calc(50% - 15px);
     grid-template-columns: repeat(2, calc(50% - 15px));
-    min-height: 620px;
+    min-height: 855px;
   }
 }
 
@@ -114,7 +128,7 @@
     grid-auto-columns: 100%;
   }
 }.u-section-3 .u-sheet-1 {
-  min-height: 780px;
+  min-height: 678px;
 }
 
 .u-section-3 .u-shape-1 {
@@ -129,7 +143,7 @@
 
 .u-section-3 .u-text-2 {
   font-size: 1.5rem;
-  margin: 48px 527px 0 41px;
+  margin: 48px 527px 60px 41px;
 }
 
 @media (max-width: 1199px) {
@@ -173,12 +187,13 @@
   .u-section-3 .u-text-2 {
     font-size: 1.3333333333333333rem;
     margin-right: 0;
+    margin-bottom: 0;
   }
 }
 
 @media (max-width: 575px) {
   .u-section-3 .u-sheet-1 {
-    min-height: 780px;
+    min-height: 678px;
   }
 
   .u-section-3 .u-shape-1 {
