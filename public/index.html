@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 <html style="font-size: 16px;" lang="es">
 <style>
+    #popupHistoria {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 1000;
+
+    }
+
     #popupFondo {
         display: none;
         position: fixed;
@@ -50,7 +62,6 @@
     <link rel="stylesheet" href="nicepage.css" media="screen">
     <link rel="stylesheet" href="index.css" media="screen">
     <link rel="stylesheet" href="indexnew.css" media="screen">
-    <!-- <script class="u-script" type="module" src="imagenes.js" defer=""></script> -->
     <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="miembros.js" defer=""></script>
@@ -66,6 +77,15 @@
 		"@type": "Organization",
 		"name": ""
 }</script>
+
+    <script>
+        function mostrarPopupH() {
+            document.getElementById("popupHistoria").style.display = "flex";
+        }
+        function cerrarPopupH() {
+            document.getElementById("popupHistoria").style.display = "none";
+        }
+    </script>
     <meta name="theme-color" content="#478ac9">
     <meta property="og:title" content="Casa">
     <meta property="og:type" content="website">
@@ -74,68 +94,7 @@
 
 <body data-home-page="Casa.html" data-home-page-title="Casa" data-path-to-root="./" data-include-products="false"
     class="u-body u-overlap u-overlap-contrast u-overlap-transparent u-xl-mode" data-lang="es">
-    <header class="u-clearfix u-container-align-center u-header u-header" id="sec-70c3">
-        <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
-            <nav class="u-menu u-menu-hamburger u-offcanvas u-menu-1" data-responsive-from="XL">
-                <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px;">
-                    <a class="u-button-style u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-top-bottom-menu-spacing u-hamburger-link u-nav-link u-text-active-palette-3-light-2 u-text-hover-palette-3-base"
-                        href="#">
-                        <svg class="u-svg-link" viewBox="0 0 24 24">
-                            <use xlink:href="#menu-hamburger"></use>
-                        </svg>
-                        <svg class="u-svg-content" version="1.1" id="menu-hamburger" viewBox="0 0 16 16" x="0px" y="0px"
-                            xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
-                            <g>
-                                <rect y="1" width="16" height="2"></rect>
-                                <rect y="7" width="16" height="2"></rect>
-                                <rect y="13" width="16" height="2"></rect>
-                            </g>
-                        </svg>
-                    </a>
-                </div>
-                <div class="u-custom-menu u-nav-container">
-                    <ul class="u-nav u-unstyled u-nav-1">
-                        <li class="u-nav-item"><a
-                                class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base"
-                                href="./" style="padding: 10px 20px;">Home</a>
-                        </li>
-                        <li class="u-nav-item"><a
-                                class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base"
-                                href="Acerca-de.html" style="padding: 10px 20px;">About</a>
-                        </li>
-                        <li class="u-nav-item"><a
-                                class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base"
-                                href="FAQ-Page.html" style="padding: 10px 20px;">FAQ</a>
-                        </li>
-                        <li class="u-nav-item"><a
-                                class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base"
-                                href="Contacto.html" style="padding: 10px 20px;">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="u-custom-menu u-nav-container-collapse">
-                    <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
-                        <div class="u-inner-container-layout u-sidenav-overflow">
-                            <div class="u-menu-close"></div>
-                            <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2">
-                                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="./">Home</a>
-                                </li>
-                                <li class="u-nav-item"><a class="u-button-style u-nav-link"
-                                        href="Acerca-de.html">About</a>
-                                </li>
-                                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="FAQ-Page.html">FAQ</a>
-                                </li>
-                                <li class="u-nav-item"><a class="u-button-style u-nav-link"
-                                        href="Contacto.html">Contact</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
-                </div>
-            </nav>
-        </div>
-    </header>
+
     <section class="skrollable u-clearfix u-container-align-center u-image u-parallax u-section-1" id="sec-8f62"
         data-image-width="2300" data-image-height="1533">
         <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
@@ -147,65 +106,115 @@
     </section>
 
 
-    <section class="u-border-1 u-border-black u-border-no-left u-border-no-right u-border-no-top u-clearfix u-container-align-center u-palette-3-light-3 u-section-2" id="sec-d5ca">
+    <section
+        class="u-border-1 u-border-black u-border-no-left u-border-no-right u-border-no-top u-clearfix u-container-align-center u-palette-3-light-3 u-section-2"
+        id="sec-d5ca">
         <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
-          <div class="u-expanded-width u-list u-list-1">
-            <div class="u-repeater u-repeater-1">
-              <div class="u-container-style u-list-item u-palette-3-light-3 u-repeater-item u-shape-rectangle" data-animation-name="flipIn" data-animation-duration="1000" data-animation-direction="X">
-                <div class="u-container-layout u-similar-container u-container-layout-1">
-                  <div class="u-custom-item u-shape u-shape-svg u-text-palette-3-base u-shape-1">
-                    <a href="#"> <svg class="u-svg-link" preserveAspectRatio="none" viewBox="0 0 160 120" style=""><use xlink:href="#svg-7e88"></use></svg>
-                    <svg class="u-svg-content" viewBox="0 0 160 120" x="0px" y="0px" id="svg-7e88"><path d="M124.3,80.3c20.5-1.1,32-18.4,34.8-31.5c4.7-22.6-6.7-55.4-81.5-47.7c-124.8,12.7-75.1,145.7-16.9,114
-      C99.9,93.7,86.4,82.3,124.3,80.3z"></path></svg></a>
-                  </div>
-                  <span class="u-align-center u-file-icon u-icon u-icon-1"><a href="#"><img src="images/7757822.png" href="#" alt=""></a></span>
-                  <h5 class="u-align-center u-text u-text-default u-text-1"><a href="#">Galería de actividades</a></h5>
-                </div>
-              </div>
-              <div class="u-container-style u-list-item u-palette-3-light-3 u-repeater-item u-shape-rectangle" data-animation-name="flipIn" data-animation-duration="1000" data-animation-direction="X">
-                <div class="u-container-layout u-similar-container u-container-layout-2">
-                  <div class="u-custom-item u-shape u-shape-svg u-text-palette-3-base u-shape-2">
-                   <a href="#sec-1005"> <svg class="u-svg-link" preserveAspectRatio="none" viewBox="0 0 160 120" style=""><use xlink:href="#svg-7e88"></use></svg>
-                    <svg class="u-svg-content" viewBox="0 0 160 120" x="0px" y="0px" id="svg-7e88"><path d="M124.3,80.3c20.5-1.1,32-18.4,34.8-31.5c4.7-22.6-6.7-55.4-81.5-47.7c-124.8,12.7-75.1,145.7-16.9,114
-      C99.9,93.7,86.4,82.3,124.3,80.3z"></path></svg>
-                  </div>
-                  <span class="u-align-center u-file-icon u-icon u-icon-2"><img src="images/5154208.png" alt=""></span></a>
-                  <h5 class="u-align-center u-text u-text-default u-text-2"><a href="#sec-1005">Miembros del club<br style=""></a>
-                  </h5>
-                </div>
-              </div>
-              <div class="u-container-style u-list-item u-palette-3-light-3 u-repeater-item u-shape-rectangle" data-animation-name="flipIn" data-animation-duration="3000" data-animation-delay="0" data-animation-direction="X">
-                <div class="u-container-layout u-similar-container u-container-layout-3">
-                  <div class="menu-nuevo u-custom-item u-shape u-shape-svg u-text-palette-3-base u-shape-3">
-                    <svg class="u-svg-link" preserveAspectRatio="none" viewBox="0 0 160 120" style=""><use xlink:href="#svg-7e88"></use></svg>
-                    <svg class="u-svg-content" viewBox="0 0 160 120" x="0px" y="0px" id="svg-7e88"><path d="M124.3,80.3c20.5-1.1,32-18.4,34.8-31.5c4.7-22.6-6.7-55.4-81.5-47.7c-124.8,12.7-75.1,145.7-16.9,114
-      C99.9,93.7,86.4,82.3,124.3,80.3z"></path></svg>
-                  </div>
-                  <span class="u-align-center u-file-icon u-icon u-icon-3"><img src="images/3819655.png" alt=""></span>
-                  <h5 class="u-align-center u-text u-text-default u-text-3">Nuestra historia</h5>
-                </div>
-              </div>
-              <div class="u-container-style u-list-item u-palette-3-light-3 u-repeater-item u-shape-rectangle" data-animation-name="flipIn" data-animation-duration="3000" data-animation-delay="0" data-animation-direction="X">
-                <div class="u-container-layout u-similar-container u-container-layout-4">
-                  <div class="menu-nuevo u-custom-item u-shape u-shape-svg u-text-palette-3-base u-shape-4">
-                    <svg class="u-svg-link" preserveAspectRatio="none" viewBox="0 0 160 120" style=""><use xlink:href="#svg-7e88"></use></svg>
-                    <svg class="u-svg-content" viewBox="0 0 160 120" x="0px" y="0px" id="svg-7e88"><path d="M124.3,80.3c20.5-1.1,32-18.4,34.8-31.5c4.7-22.6-6.7-55.4-81.5-47.7c-124.8,12.7-75.1,145.7-16.9,114
-      C99.9,93.7,86.4,82.3,124.3,80.3z"></path></svg>
-                  </div>
-                  <span class="u-align-center u-file-link u-icon u-icon-4" data-href="https://firebasestorage.googleapis.com/v0/b/alfa-orion-2291d.firebasestorage.app/o/Cronograma%20GM%20Alfa%20Orion.pdf?alt=media&token=7c2abb09-6fec-4948-bc55-def447c28e50" data-target="_blank"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 60 60" style=""><use xlink:href="#svg-0123"></use></svg><svg class="u-svg-content" viewBox="0 0 60 60" x="0px" y="0px" id="svg-0123" style="enable-background:new 0 0 60 60;"><g><path d="M57,4h-7V1c0-0.553-0.447-1-1-1h-7c-0.553,0-1,0.447-1,1v3H19V1c0-0.553-0.447-1-1-1h-7c-0.553,0-1,0.447-1,1v3H3
+            <div class="u-expanded-width u-list u-list-1">
+                <div class="u-repeater u-repeater-1">
+                    <div class="u-container-style u-list-item u-palette-3-light-3 u-repeater-item u-shape-rectangle"
+                        data-animation-name="flipIn" data-animation-duration="1000" data-animation-direction="X">
+                        <div class="u-container-layout u-similar-container u-container-layout-1">
+                            <div class="u-custom-item u-shape u-shape-svg u-text-palette-3-base u-shape-1">
+                                <a target="_blank"
+                                    href="https://firebasestorage.googleapis.com/v0/b/alfa-orion-2291d.firebasestorage.app/o/Evidencia%20de%20Actividades%20.pdf?alt=media">
+                                    <svg class="u-svg-link" preserveAspectRatio="none" viewBox="0 0 160 120" style="">
+                                        <use xlink:href="#svg-7e88"></use>
+                                    </svg>
+                                    <svg class="u-svg-content" viewBox="0 0 160 120" x="0px" y="0px" id="svg-7e88">
+                                        <path d="M124.3,80.3c20.5-1.1,32-18.4,34.8-31.5c4.7-22.6-6.7-55.4-81.5-47.7c-124.8,12.7-75.1,145.7-16.9,114
+      C99.9,93.7,86.4,82.3,124.3,80.3z"></path>
+                                    </svg></a>
+                            </div>
+                            <span class="u-align-center u-file-icon u-icon u-icon-1"><a target="_blank"
+                                    href="https://firebasestorage.googleapis.com/v0/b/alfa-orion-2291d.firebasestorage.app/o/Evidencia%20de%20Actividades%20.pdf?alt=media"><img
+                                        src="images/7757822.png" href="#" alt=""></a></span>
+                            <h5 class="u-align-center u-text u-text-default u-text-1"><a target="_blank"
+                                    href="https://firebasestorage.googleapis.com/v0/b/alfa-orion-2291d.firebasestorage.app/o/Evidencia%20de%20Actividades%20.pdf?alt=media">Galería
+                                    de
+                                    actividades</a></h5>
+                        </div>
+                    </div>
+                    <div class="u-container-style u-list-item u-palette-3-light-3 u-repeater-item u-shape-rectangle"
+                        data-animation-name="flipIn" data-animation-duration="1000" data-animation-direction="X">
+                        <div class="u-container-layout u-similar-container u-container-layout-2">
+                            <div class="u-custom-item u-shape u-shape-svg u-text-palette-3-base u-shape-2">
+                                <a href="#sec-1005"> <svg class="u-svg-link" preserveAspectRatio="none"
+                                        viewBox="0 0 160 120" style="">
+                                        <use xlink:href="#svg-7e88"></use>
+                                    </svg>
+                                    <svg class="u-svg-content" viewBox="0 0 160 120" x="0px" y="0px" id="svg-7e88">
+                                        <path d="M124.3,80.3c20.5-1.1,32-18.4,34.8-31.5c4.7-22.6-6.7-55.4-81.5-47.7c-124.8,12.7-75.1,145.7-16.9,114
+      C99.9,93.7,86.4,82.3,124.3,80.3z"></path>
+                                    </svg>
+                            </div>
+                            <span class="u-align-center u-file-icon u-icon u-icon-2"><img src="images/5154208.png"
+                                    alt=""></span></a>
+                            <h5 class="u-align-center u-text u-text-default u-text-2"><a href="#sec-1005">Miembros del
+                                    club<br style=""></a>
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="u-container-style u-list-item u-palette-3-light-3 u-repeater-item u-shape-rectangle"
+                        data-animation-name="flipIn" data-animation-duration="1000" data-animation-direction="X">
+                        <div class="u-container-layout u-similar-container u-container-layout-3">
+                            <div class="menu-nuevo u-custom-item u-shape u-shape-svg u-text-palette-3-base u-shape-3">
+                                <a target="_blank" href="https://firebasestorage.googleapis.com/v0/b/alfa-orion-2291d.firebasestorage.app/o/Historia.pdf?alt=media&token=7904a884-348f-4a7b-8fda-c5ea7d1e946f" style=" cursor: pointer;"> <svg class="u-svg-link"
+                                        preserveAspectRatio="none" viewBox="0 0 160 120" style="">
+                                        <use xlink:href="#svg-7e88"></use>
+                                    </svg>
+                                    <svg class="u-svg-content" viewBox="0 0 160 120" x="0px" y="0px" id="svg-7e88">
+                                        <path d="M124.3,80.3c20.5-1.1,32-18.4,34.8-31.5c4.7-22.6-6.7-55.4-81.5-47.7c-124.8,12.7-75.1,145.7-16.9,114
+      C99.9,93.7,86.4,82.3,124.3,80.3z"></path>
+                                    </svg>
+                            </div>
+                            <span class="u-align-center u-file-icon u-icon u-icon-3"><img src="images/3819655.png" target="_blank"
+                                    alt="" href="https://firebasestorage.googleapis.com/v0/b/alfa-orion-2291d.firebasestorage.app/o/Historia.pdf?alt=media&token=7904a884-348f-4a7b-8fda-c5ea7d1e946f" style="cursor: pointer;"></span>
+                            <h5 class="u-align-center u-text u-text-default u-text-3"><a style="cursor: pointer;" target="_blank"
+                                    href="https://firebasestorage.googleapis.com/v0/b/alfa-orion-2291d.firebasestorage.app/o/Historia.pdf?alt=media&token=7904a884-348f-4a7b-8fda-c5ea7d1e946f">Nuestra
+                                    historia</a></h5>
+                        </div>
+                    </div>
+                    <div class="u-container-style u-list-item u-palette-3-light-3 u-repeater-item u-shape-rectangle"
+                        data-animation-name="flipIn" data-animation-duration="1000" data-animation-direction="X">
+                        <div class="u-container-layout u-similar-container u-container-layout-4">
+                            <div data-href="https://firebasestorage.googleapis.com/v0/b/alfa-orion-2291d.firebasestorage.app/o/Cronograma%20GM%20Alfa%20Orion.pdf?alt=media&token=7c2abb09-6fec-4948-bc55-def447c28e50"
+                                data-target="_blank"
+                                class="menu-nuevo u-custom-item u-shape u-shape-svg u-text-palette-3-base u-shape-4">
+                                <svg class="u-svg-link" preserveAspectRatio="none" viewBox="0 0 160 120" style="">
+                                    <use xlink:href="#svg-7e88"></use>
+                                </svg>
+                                <svg class="u-svg-content" viewBox="0 0 160 120" x="0px" y="0px" id="svg-7e88">
+                                    <path d="M124.3,80.3c20.5-1.1,32-18.4,34.8-31.5c4.7-22.6-6.7-55.4-81.5-47.7c-124.8,12.7-75.1,145.7-16.9,114
+      C99.9,93.7,86.4,82.3,124.3,80.3z"></path>
+                                </svg>
+                            </div>
+                            <span class="u-align-center u-file-link u-icon u-icon-4"
+                                data-href="https://firebasestorage.googleapis.com/v0/b/alfa-orion-2291d.firebasestorage.app/o/Cronograma%20GM%20Alfa%20Orion.pdf?alt=media&token=7c2abb09-6fec-4948-bc55-def447c28e50"
+                                data-target="_blank"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice"
+                                    viewBox="0 0 60 60" style="">
+                                    <use xlink:href="#svg-0123"></use>
+                                </svg><svg class="u-svg-content" viewBox="0 0 60 60" x="0px" y="0px" id="svg-0123"
+                                    style="enable-background:new 0 0 60 60;">
+                                    <g>
+                                        <path d="M57,4h-7V1c0-0.553-0.447-1-1-1h-7c-0.553,0-1,0.447-1,1v3H19V1c0-0.553-0.447-1-1-1h-7c-0.553,0-1,0.447-1,1v3H3
           C2.447,4,2,4.447,2,5v11v43c0,0.553,0.447,1,1,1h54c0.553,0,1-0.447,1-1V16V5C58,4.447,57.553,4,57,4z M43,2h5v3v3h-5V5V2z M12,2h5
           v3v3h-5V5V2z M4,6h6v3c0,0.553,0.447,1,1,1h7c0.553,0,1-0.447,1-1V6h22v3c0,0.553,0.447,1,1,1h7c0.553,0,1-0.447,1-1V6h6v9H4V6z
-           M4,58V17h52v41H4z"></path><path d="M38,23h-7h-2h-7h-2h-9v9v2v7v2v9h9h2h7h2h7h2h9v-9v-2v-7v-2v-9h-9H38z M31,25h7v7h-7V25z M38,41h-7v-7h7V41z M22,34h7v7h-7
+           M4,58V17h52v41H4z"></path>
+                                        <path d="M38,23h-7h-2h-7h-2h-9v9v2v7v2v9h9h2h7h2h7h2h9v-9v-2v-7v-2v-9h-9H38z M31,25h7v7h-7V25z M38,41h-7v-7h7V41z M22,34h7v7h-7
           V34z M22,25h7v7h-7V25z M13,25h7v7h-7V25z M13,34h7v7h-7V34z M20,50h-7v-7h7V50z M29,50h-7v-7h7V50z M38,50h-7v-7h7V50z M47,50h-7
           v-7h7V50z M47,41h-7v-7h7V41z M47,25v7h-7v-7H47z"></path>
-  </g></svg></span>
-                  <h5 class="u-align-center u-text u-text-default u-text-4">Cronograma de actividades</h5>
+                                    </g>
+                                </svg></span>
+                            <h5 data-href="https://firebasestorage.googleapis.com/v0/b/alfa-orion-2291d.firebasestorage.app/o/Cronograma%20GM%20Alfa%20Orion.pdf?alt=media&token=7c2abb09-6fec-4948-bc55-def447c28e50"
+                                data-target="_blank" class="u-align-center u-text u-text-default u-text-4">Cronograma de
+                                actividades</h5>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
         </div>
-      </section>
+    </section>
 
     <section class="u-clearfix u-palette-3-light-3 u-section-2" id="sec-d5ca">
         <div class="u-clearfix u-sheet u-sheet-1">
@@ -213,7 +222,10 @@
                 <div class="u-layout">
                     <div class="u-layout-row">
                         <div class="u-container-style u-layout-cell u-size-40 u-layout-cell-1">
-                            <div class="u-container-layout u-container-layout-1">
+                            <div class="u-container-layout u-container-layout-1" style="
+                            background-image: url(images/shape.png);
+                            background-repeat: no-repeat;
+                            background-position: -70px -35px;">
                                 <h2 class="u-text u-text-1">Nuestra <span class="u-text-palette-3-base">Misión</span>
                                 </h2>
                                 <p class="u-text u-text-3">
@@ -235,7 +247,7 @@
                             </div>
                         </div>
                         <div class="u-container-style u-image u-layout-cell u-size-20 u-image-1" data-image-width="1333"
-                            data-image-height="2000" data-animation-name="flipIn" data-animation-duration="3000"
+                            data-image-height="2000" data-animation-name="flipIn" data-animation-duration="2000"
                             data-animation-delay="0" data-animation-direction="X">
                             <div class="u-container-layout u-container-layout-2"></div>
                         </div>
@@ -254,7 +266,7 @@
                             <div class="u-container-layout u-container-layout-1"></div>
                         </div>
                         <div class="u-container-align-left u-container-style u-layout-cell u-palette-3-light-3 u-size-30 u-layout-cell-2"
-                            data-animation-name="flipIn" data-animation-duration="3000" data-animation-delay="0"
+                            data-animation-name="flipIn" data-animation-duration="2000" data-animation-delay="0"
                             data-animation-direction="X">
                             <div class="u-container-layout u-valign-middle u-container-layout-2">
                                 <span class="u-align-left u-file-icon u-icon u-icon-1"><img src="images/1634093.png"
@@ -279,28 +291,24 @@
         <div class="u-clearfix u-sheet u-sheet-1"></div>
     </section>
 
-
-
-
-
-
-
     <section class="u-clearfix u-container-align-center u-palette-3-light-3 u-section-7" id="sec-1005">
-
-        <h2 style="text-align: center; margin: 63px;"> Miembros de <span class="u-text-palette-3-base">nuestro
-                Club</span>
-        </h2>
-        <div class="container">
+        <div style="margin: 40px; text-align: center;">
+            <h2 style="text-align: center; margin: 63px;"> Miembros de <span class="u-text-palette-3-base">nuestro
+                    Club</span>
+            </h2>
+            <a href="#sec-d5ca" style="color: #000; font-family: 'Unbounded'; font-weight: bold;">Volver al menú</a>
+        </div>
+        <div class="container" style="text-align: center;">
             <div class="input-group input-group-sm" style="
                 margin-bottom: 50px;
                 margin-left: auto;
-                margin-right: auto;
-                width: 97%;">
+                margin-right: auto;">
 
                 <input id="buscador" placeholder="Buscar miembro por nombre o cargo..." type="text"
                     oninput="filtrarMiembros()" class="buscador" aria-label="Small"
                     aria-describedby="inputGroup-sizing-sm">
             </div>
+
         </div>
         <div class="container">
             <div class="row row-cols-4" id="contenedorMiembros"></div>
@@ -372,28 +380,19 @@
             </div>
         </div>
     </div>
-
+    <!-- 
     <section class="u-align-center u-clearfix u-container-align-center u-palette-3-light-3 u-section-4" id="block-1">
-        <div
-            class="u-clearfix u-sheet u-valign-bottom-xl u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-sheet-1">
+        <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
             <div class="u-hover-feature u-shape u-shape-svg u-text-palette-3-base u-shape-1">
-                <svg class="u-svg-link" preserveAspectRatio="none" viewBox="0 0 160 160" style="">
-                    <use xlink:href="#svg-2433"></use>
-                </svg>
-                <svg class="u-svg-content" viewBox="0 0 160 160" x="0px" y="0px" id="svg-2433"
-                    style="enable-background:new 0 0 160 160;">
-                    <path d="M151.7,132.5c-3.4,6-7.9,11.7-13.3,16.5c-29.2,26.1-54.1-2.3-88.2-3S0,109.5,0,91.6s14.8-31.3,25.3-45.3S33.4,11,51.8,3
-      c15.3-6.6,33.6-0.4,51.6,0.7c11.2,0.7,28.8-3.8,38.2,0.4s11.8,15.4,9.2,22.8c-1.9,5.4-5.5,11.6-12.8,16.5
-      c-9.3,10.1-4.7,22.9,3.7,33.4c7.8,9.7,17.7,11.7,18.3,23.5C160.4,110.8,157.6,122.2,151.7,132.5L151.7,132.5z">
-                    </path>
-                </svg>
             </div>
             <h2 class="u-align-center u-text u-text-default u-text-1" data-animation-name="rubberBand"
                 data-animation-duration="2000" data-animation-delay="0" data-animation-direction="">Galería de <span
                     class="u-text-palette-3-base">actividades</span>
             </h2>
             <p class="u-align-center u-text u-text-2">Imágenes de las actividades del club</p>
-            <!-- <div
+            <a href="#sec-d5ca" style="color: #000; font-family: 'Unbounded'; font-weight: bold; padding: 10Px; margin: 10px auto;
+    text-align: center;">Volver al menú</a>
+            <div
                 class="u-expanded-width u-gallery u-layout-grid u-lightbox u-no-transition u-show-text-none u-gallery-1">
                 <div class="u-gallery-inner u-gallery-inner-1">
                     <div class="u-effect-hover-zoom u-gallery-item">
@@ -451,15 +450,10 @@
                         <div class="u-over-slide u-shading u-over-slide-9"></div>
                     </div>
                 </div>
-            </div> -->
-            <a href="#sec-d5ca"
-                class="u-align-center u-black u-border-none u-btn u-button-style u-custom-font u-hover-palette-3-base u-btn-1">
-                <span class="u-file-icon u-icon u-text-white u-icon-1"><img src="images/446054-739461ad.png"
-                        alt=""></span>&nbsp;Volver al menú
-            </a>
+            </div>
         </div>
-
-    </section>
+    </section> -->
+    </div>
 
     <section class="u-backlink u-clearfix u-grey-80">
         <p class="u-text">

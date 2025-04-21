@@ -33,7 +33,7 @@ fetch('miembros.json')
 function mostrarPopup(indice) {
   const miembro = miembrosData.miembros[indice];
   document.getElementById("popup-nombre").innerHTML = miembro.nombreCompleto;
-  document.getElementById("popup-id").textContent = miembro.numeroDocumento;
+  document.getElementById("popup-id").textContent = miembro.tipoDocumento + " " + miembro.numeroDocumento;
   document.getElementById("popup-email").textContent = miembro.correoElectronico;
   document.getElementById("popup-telefono").textContent = miembro.numeroCelular|| "No refiere";
   document.getElementById("popup-emergencia").textContent = miembro.numeroEmergencia || "No refiere";

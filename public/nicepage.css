@@ -31360,12 +31360,6 @@ span.product-remove:after {
   margin-top: 0 !important;
 }
 
-[class*="u-border-"],
-.u-input,
-.u-field-input,
-.u-link[class*="u-border-"] {
-  border-style: solid;
-}
 
 .u-border-0,
 .u-separator-0:after,

@@ -29,20 +29,6 @@
             "foto": "https://firebasestorage.googleapis.com/v0/b/alfa-orion-2291d.firebasestorage.app/o/adrian.jpg?alt=media"
         },
         {
-            "nombreCompleto": "Daniel Alberto Gonzalez Chavez",
-            "tipoDocumento": "CC",
-            "numeroDocumento": 1070588772,
-            "numeroCelular": 3054379444,
-            "correoElectronico": "danielalberto.g.ch15@gmail.com",
-            "numeroEmergencia": 3133962588,
-            "eps": "SURA",
-            "alergia": "No",
-            "tomaMedicamento": "No",
-            "tipoSangre": "B+",
-            "cargo": "Subdirector",
-            "foto": "https://firebasestorage.googleapis.com/v0/b/alfa-orion-2291d.firebasestorage.app/o/daniel-g.jpg?alt=media"
-        },
-        {
             "nombreCompleto": "Natalia Marcela Guzmán Macías",
             "tipoDocumento": "CC",
             "numeroDocumento": 1100012755,
@@ -83,6 +69,21 @@
             "tipoSangre": "O+",
             "cargo": "Tesorero",
             "foto": "https://firebasestorage.googleapis.com/v0/b/alfa-orion-2291d.firebasestorage.app/o/juan.jpg?alt=media"
+        },
+        
+        {
+            "nombreCompleto": "Daniel Alberto Gonzalez Chavez",
+            "tipoDocumento": "CC",
+            "numeroDocumento": 1070588772,
+            "numeroCelular": 3054379444,
+            "correoElectronico": "danielalberto.g.ch15@gmail.com",
+            "numeroEmergencia": 3133962588,
+            "eps": "SURA",
+            "alergia": "No",
+            "tomaMedicamento": "No",
+            "tipoSangre": "B+",
+            "cargo": "Miembro",
+            "foto": "https://firebasestorage.googleapis.com/v0/b/alfa-orion-2291d.firebasestorage.app/o/daniel-g.jpg?alt=media"
         },
         {
             "nombreCompleto": "Antonio Marin Caro",
@@ -171,7 +172,7 @@
         {
             "nombreCompleto": "Adriana Rubio Rodríguez",
             "tipoDocumento": "CC",
-            "numeroDocumento": "109225;22",
+            "numeroDocumento": "10922522",
             "numeroCelular": 3166255451,
             "correoElectronico": "adriana.rubio@udea.edu.co",
             "numeroEmergencia": 3154421144,
@@ -391,7 +392,7 @@
             "tomaMedicamento": "No ",
             "tipoSangre": "O+",
             "cargo": "Miembro",
-            "foto": "https://firebasestorage.googleapis.com/v0/b/alfa-orion-2291d.firebasestorage.app/o/sinfoto.jpg?alt=media"
+            "foto": "https://firebasestorage.googleapis.com/v0/b/alfa-orion-2291d.firebasestorage.app/o/heyl.jpeg?alt=media"
         },
         {
             "nombreCompleto": "Sebastián Rincón Sanmiguel",
@@ -476,34 +477,6 @@
             "tipoSangre": "O+",
             "cargo": "Miembro",
             "foto": "https://firebasestorage.googleapis.com/v0/b/alfa-orion-2291d.firebasestorage.app/o/andres.jpg?alt=media"
-        },
-        {
-            "nombreCompleto": "Juan José Buitrago Suescún",
-            "tipoDocumento": "CC",
-            "numeroDocumento": 1051955648,
-            "numeroCelular": 3219356953,
-            "correoElectronico": "juanj.buitragos@unac.edu.co",
-            "numeroEmergencia": 3123777072,
-            "eps": "Nueva Eps",
-            "alergia": "Ninguna ",
-            "tomaMedicamento": "Ninguno ",
-            "tipoSangre": "O+",
-            "cargo": "Miembro",
-            "foto": "https://firebasestorage.googleapis.com/v0/b/alfa-orion-2291d.firebasestorage.app/o/sinfoto.jpg?alt=media"
-        },
-        {
-            "nombreCompleto": "Fredys Garces Olivares",
-            "tipoDocumento": "CC",
-            "numeroDocumento": 1007126108,
-            "numeroCelular": 3012622403,
-            "correoElectronico": "fgarcesolivares@gmail.com",
-            "numeroEmergencia": 4024889178,
-            "eps": "Sura",
-            "alergia": "Ninguna",
-            "tomaMedicamento": "Ferbin 250mg",
-            "tipoSangre": "B+",
-            "cargo": "Miembro",
-            "foto": "https://firebasestorage.googleapis.com/v0/b/alfa-orion-2291d.firebasestorage.app/o/sinfoto.jpg?alt=media"
         }
     ]
 }
